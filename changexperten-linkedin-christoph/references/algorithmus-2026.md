@@ -12,8 +12,10 @@ Diese Datei fasst die relevanten Erkenntnisse aus der 2026-Recherche zusammen, d
 
 ## Beim Veröffentlichen
 
-- **Golden Hour:** Die ersten 60–90 Minuten nach dem Posten entscheiden über den Großteil der Reichweite. Christoph sollte in diesem Fenster verfügbar sein, um Kommentare zeitnah und mehrsätzig zu beantworten – das verlängert die Verteilungswelle.
-- **Beste Posting-Tage:** Dienstag bis Donnerstag, Mittwoch am stärksten. Wochenende und Montagvormittag meiden.
+- **Golden Hour:** Die ersten 60–90 Minuten nach dem Posten entscheiden über den Großteil der Reichweite. Christoph sollte in diesem Fenster verfügbar sein, um Kommentare zeitnah und mehrsätzig zu beantworten – das verlängert die Verteilungswelle. Bei der festen Veröffentlichungszeit 07:00 liegt dieses Fenster zwischen 07:00 und 08:30.
+- **Feste Posting-Tage und -Zeit (verbindlich):** Montag + Mittwoch in Stufe 1, Montag + Mittwoch + Freitag in Stufe 2, einheitlich 07:00. Verbindliche Festlegung samt Mengen und Format-Mix im Abschnitt „Monatlicher Post-Mix und Frequenz" im SKILL.md. Das Einplanen auf 07:00 übernimmt das Make-Szenario „Content-Publishing" (ID 9521520).
+- **Was die Reichweiten-Recherche dazu sagt:** stärkster Tag ist Mittwoch, danach Dienstag und Donnerstag. Der Montagvormittag gilt als schwächster Zeitraum der Woche, weil die Zielgruppe in Wochenstart-Meetings sitzt. Freitag liegt darunter und ist deshalb in Stufe 2 der Slot für den Post mit dem geringsten Diskussionsanspruch. Das Wochenende bleibt komplett ausgeschlossen. Die feste Kombination Montag 07:00 weicht damit bewusst vom reichweitenoptimalen Muster ab, zugunsten von Planbarkeit und einem einheitlichen Automatisierungs-Zeitstempel. Im Quartals-Rückblick prüfen: Laufen die Montags-Posts systematisch schwächer als die Mittwochs-Posts, ist der Wechsel von Montag auf Dienstag die naheliegende Korrektur, ohne dass Zeit oder Menge angetastet werden müssen.
+- **Frequenz:** 8 Posts pro Monat in Stufe 1, 12 in Stufe 2. Höhere Frequenz nur, wenn die Nachbereitung je Post trotzdem stattfindet, sonst ist sie kontraproduktiv.
 - **Format-Rotation:** Standard ist Text + Bild. Ein Dokument-Carousel ist die Ausnahme und kommt nur zum Einsatz, wenn Christoph es ausdrücklich wünscht oder der Inhalt es zwingend erfordert (siehe Phase 4 im SKILL.md) – nicht als feste wöchentliche Quote.
 
 ## Nach dem Veröffentlichen
@@ -44,7 +46,7 @@ Standard für alle Kategorien ist **Text + Bild**. Ein Dokument-Carousel wird nu
 
 ## Profil-Grundlage (einmalig prüfen, dann quartalsweise)
 
-Christophs Profil (Headline, Info-Text, Erfahrung) sollte die vier Themencluster – Change Management, Teamentwicklung, Führungskräfteentwicklung, Organisationsentwicklung/Kultur – explizit stützen. Der Algorithmus ordnet Profile Themen zu; ohne dieses Alignment wird Content seltener an das richtige Zielpublikum ausgespielt. Das ist kein Teil des Post-Erstellungsprozesses, aber eine Voraussetzung, die im Hintergrund stimmen sollte.
+Christophs Profil (Headline, Info-Text, Erfahrung) sollte die sechs Themencluster aus dem SKILL.md explizit stützen: Change Management, Organisationsentwicklung/Kultur, Teamentwicklung, Führungskräfteentwicklung, KI & Arbeitswelt im Wandel, Psychologie & Neurowissenschaften. Besonders KI & Arbeitswelt ist neu in der Cluster-Liste und im Profiltext bislang vermutlich nicht abgedeckt, das ist beim nächsten Quartals-Check zuerst zu prüfen. Der Algorithmus ordnet Profile Themen zu; ohne dieses Alignment wird Content seltener an das richtige Zielpublikum ausgespielt. Das ist kein Teil des Post-Erstellungsprozesses, aber eine Voraussetzung, die im Hintergrund stimmen sollte.
 
 ## KPIs, die wirklich zählen
 
@@ -52,7 +54,7 @@ Wichtiger als Impressions und Likes:
 - **Saves** (Speichern) – stärkstes Qualitätssignal
 - **Kommentarqualität** – echte Diskussionen statt "Toll!"
 - **Profilaufrufe**
-- **Follower-Wachstum** (gesund: ca. 2–5 % / Monat bei konsistentem Posting)
+- **Follower-Wachstum** (gesund: ca. 2–5 % / Monat bei konsistentem Posting, also bei eingehaltener Zielmenge von 8 Posts pro Monat in Stufe 1 bzw. 12 in Stufe 2)
 - **Eingehende Nachrichten/Leads** – die eigentliche Geschäfts-Metrik
 
 Handlungsschwellen:

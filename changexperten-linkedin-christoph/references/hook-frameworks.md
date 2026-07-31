@@ -58,6 +58,38 @@ Keine vagen Versprechen ("Ich zeige dir, wie du besser führst"). Keine generisc
 
 Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil er am direktesten die Leser-Emotion trifft.
 
+## H. Wahrnehmungslücke (Zwei Zahlen, die identisch sein müssten)
+
+**Prinzip:** Zwei Werte nebeneinanderstellen, die aus derselben Quelle, derselben Organisation oder derselben Situation stammen und deshalb eigentlich übereinstimmen müssten. Die Lücke erzeugt die Spannung, nicht die Höhe der Zahl. Funktioniert überall dort, wo Selbst- und Fremdwahrnehmung auseinanderfallen, und das ist bei Führung fast immer der Fall.
+
+**Beispiel:** "Zwei Werte aus derselben Studie, erhoben in denselben Unternehmen: 43 Prozent und 24,5 Prozent. Der erste ist, was die Personalentwicklung über Führungskräfte glaubt. Der zweite ist, was Führungskräfte tatsächlich tun."
+
+**Wichtig:** Die Lücke muss anschließend erklärt werden, sonst bleibt es ein Zahlenspiel. Und die Zahlen müssen echt und aus einer Leitquelle sein.
+
+## I. Zitat kalt (Der Satz ohne Vorbau)
+
+**Prinzip:** Mit einem echten Satz beginnen, den jemand gesagt hat, ohne Einordnung davor. Der Leser hört zuerst die Stimme, dann erfährt er den Kontext. Das öffnet eine Szene in einer Zeile und wirkt weniger konstruiert als jede These.
+
+**Beispiel:** "„Ich dachte, das gehört einfach dazu." Das sagte eine Führungskraft zu mir, nachdem sie ein Jahr lang jedes Wochenende gearbeitet hatte."
+
+**Voraussetzung:** Das Zitat muss echt sein und darf nicht paraphrasiert klingen. Erfundene oder geglättete Zitate sind ausgeschlossen. Liegt kein echter Satz vor, ist dieses Framework nicht verfügbar. Zitierte Person immer anonym halten.
+
+## J. Hochrechnung auf den Leser (Die Zahl in seinem Team)
+
+**Prinzip:** Eine Studienzahl in die Größenordnung des Lesers übersetzen, statt sie als Prozentwert stehen zu lassen. Aus einem Prozentsatz wird eine Anzahl von Menschen, die der Leser mit Namen kennt. Damit ist die "Zahl mit Stich"-Anforderung schon im Hook erfüllt.
+
+**Beispiel:** "Du hast zehn Führungskräfte. Sieben von ihnen sitzen diese Woche mit dir in einem Meeting und sagen dir nicht, dass es zu viel ist."
+
+**Regel:** Die Hochrechnung muss mathematisch sauber sein und darf die Studienbasis nicht überdehnen. Wurden große Organisationen befragt, wird das im Post erwähnt, sobald die Zahl auf den Mittelstand gemünzt wird.
+
+## K. Das unerklärte Detail (Konkretheit vor Bedeutung)
+
+**Prinzip:** Mit einem auffällig konkreten Detail starten, dessen Relevanz noch nicht erkennbar ist. Der Leser liest weiter, um zu verstehen, warum dieses Detail wichtig ist. Gegenmodell zum Thesen-Hook, der seine Bedeutung sofort ausspricht und damit Spannung verschenkt.
+
+**Beispiel:** "Ein Jahr, jedes Wochenende. So lange hat eine Führungskraft gearbeitet, mit der ich später im Coaching saß, ohne dass es im Unternehmen jemand mitbekam."
+
+**Voraussetzung:** Das Detail muss echt sein. Es aus Dramaturgiegründen zu erfinden oder zu schärfen (aus "ein Jahr" wird "14 Monate") ist ausgeschlossen. Fehlt ein echtes Detail, bei Christoph nachfragen statt konstruieren.
+
 ---
 
 ## Kernprinzipien für alle Hooks
@@ -68,12 +100,28 @@ Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil
 ✅ Emotionaler Trigger – eine dominante Leser-Emotion gezielt treffen (Wiedererkennung, Erleichterung, produktiver Ärger, Entlastung von Scham, Ehrgeiz), nicht nur allgemein Neugier; welche Emotion: siehe [leser-resonanz.md](leser-resonanz.md)
 ✅ Der Hook signalisiert sofort, warum es sich lohnt weiterzulesen
 
+## Der Interessantheits-Filter (Pflicht für jede Variante)
+
+Die häufigste Schwäche ist nicht der falsche Hook, sondern der korrekte und langweilige. Er erfüllt alle Regeln oben und löst trotzdem nichts aus. Jede der 3–5 Varianten in Phase 2 wird deshalb gegen drei Fragen gehalten:
+
+1. **Übertragbarkeits-Test:** Könnte dieser Hook mit minimaler Änderung unter einem beliebigen anderen Führungspost stehen? Wenn ja, ist er austauschbar und fällt raus. "Führung unter Dauerdruck ist anspruchsvoll geworden" passt überall hin und sagt nichts.
+2. **Informations-Test:** Steht im Hook etwas, das der Leser noch nicht weiß, eine Zahl, ein Zitat, ein Detail, eine Lücke? Ein Hook, der nur eine bekannte Wahrheit bestätigt, ist eine Aufwärmzeile, kein Hook.
+3. **Spannungs-Test:** Bleibt nach der zweiten Zeile etwas offen, das man wissen will? Wenn der Hook seine eigene Pointe schon mitliefert, gibt es keinen Grund weiterzulesen.
+
+Ein Hook, der einen der drei Tests nicht besteht, wird ersetzt, nicht überarbeitet. Glätten macht aus einem austauschbaren Hook keinen interessanten.
+
+**Was einen Hook interessant macht, in dieser Reihenfolge:** eine echte Stimme (Zitat), eine unerwartete Lücke zwischen zwei Werten, ein Detail, dessen Bedeutung noch fehlt, eine verteidigbare These gegen eine gängige Praxis. Was ihn langweilig macht: eine Zusammenfassung des Posts, eine allgemeine Zeitdiagnose, eine Frage ohne Kante.
+
 ## Was zu vermeiden ist
 
 ❌ Rhetorische Fragen als Hook ("Kennst du das Gefühl...?") – wirken unentschlossen
 ❌ Ternäre Aufzählungen im Hook ("X, Y und Z") – wirkt wie eine Liste, keine Geschichte
 ❌ Corporate-Sprech oder Buzzwords im ersten Satz
 ❌ Hooks wiederverwenden – jeder Hook ist einzigartig, auch bei ähnlichen Themen
+❌ **Vorwurfs-Hooks**, die den Leser naiv dastehen lassen, bevor Christoph sich selbst einbezogen hat ("Und du glaubst es sogar?"). Sie treffen genau die Person, die gewonnen werden soll
+❌ **Abgehängte Fragmente** als Rhythmus-Trick ("Sie sagen: gut. Und du glaubst es. Jedes Mal.") – vollständige Sätze, notfalls längere, siehe Schreibregeln in SKILL.md Phase 3
+❌ **Negativ-Verstärkung** im Hook ("Nicht das Tool ist das Problem. Das Gespräch ist es.") – die Aussage direkt formulieren
+❌ **Themen-Ansage statt Hook** ("Die Leadership-Studie 2026 zeigt Interessantes zum Thema Belastung") – die Quelle gehört in den Beleg, nicht in Zeile 1
 
 ## Ausnahme: Fragen-Hooks
 
@@ -85,14 +133,16 @@ Keine starre Regel, aber eine bewährte Zuordnung als Startpunkt:
 
 | Kategorie | Bevorzugte Frameworks |
 |---|---|
-| Actionable Guide | Contrarian Opinion, "A zu C ohne B" |
+| Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung |
 | Offer Highlight | Brutal Social Proof, "Day 1"/Zeitanker |
-| Client Success Story | "A zu C ohne B", Brutal Social Proof |
+| Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt |
 | Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof |
-| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus |
-| Trends & Analytics | Brutal Social Proof, Contrarian Opinion |
-| Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz |
+| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail |
+| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion |
+| Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz, unerklärtes Detail |
 | Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz |
+
+Bei studienbasierten Posts (Trends & Analytics, oft auch Leadership Thought) sind Wahrnehmungslücke (H) und Hochrechnung (J) die naheliegenden Startpunkte, weil sie eine Zahl in Spannung oder in Betroffenheit übersetzen, statt sie zu referieren.
 
 Diese Zuordnung ist ein Startpunkt für Phase 2, kein Zwang. Wenn ein anderes Framework für die konkrete Geschichte besser passt, das nutzen.
 

@@ -164,6 +164,9 @@ Regeln:
 - 80/20-Regel: Ergebnis andeuten, Methode zurückhalten
 - Radikale Konkretheit (Zahlen, Zeiträume, Szenen, keine erfundenen Zahlen)
 - Keine generischen rhetorischen Fragen als Hook (Ausnahme: siehe Referenzdatei)
+- **Jeder Hook muss den Interessantheits-Filter der Referenzdatei passieren.** Ein technisch korrekter Hook ist nicht automatisch ein interessanter. Der Filter prüft drei Dinge: Könnte der Hook unter einem beliebigen anderen Post stehen? Enthält er eine Information, die der Leser noch nicht hat? Bleibt nach Zeile zwei eine offene Spannung? Fällt eine Antwort negativ aus, ist der Hook auszutauschen, nicht zu glätten.
+- **Keine Vorwurfs-Hooks.** Ein Hook darf den Leser nicht naiv oder fahrlässig dastehen lassen, bevor Christoph sich selbst einbezogen hat ("Und du glaubst es sogar?"). Das trifft genau die Person, die gewonnen werden soll. Beobachtung ja, Belehrung nein.
+- **Der Hook selbst folgt den Prosaregeln aus Phase 3:** keine abgehängten Fragmente, keine Negativ-Verstärkung.
 - **Keine Gedankenstriche (– oder —) im Hook.** Wirkt wie KI-generierter Text. Statt "X, das Ergebnis überrascht" lieber zwei Sätze oder ein Doppelpunkt.
 - Nur die Hooks liefern, keinen Fließtext, keine Erklärung
 - Auf Auswahl von Christoph warten, bevor Phase 3 beginnt
@@ -185,6 +188,8 @@ Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 - **Resonanz- oder Reibungszeile im Haupttext (Pflicht):** Jede Variante enthält mindestens eine Zeile, die den in Phase 1 gewählten Kommentar-Trigger auslöst - entweder einen Satz, den der Leser über sein eigenes Leben hätte schreiben können (Identifikation), oder eine verteidigbare Gegenposition, die zum Ergänzen einlädt (produktive Reibung). Diese Zeile steht im Text, nicht erst in der Schlussfrage. Vorgehen und Beispiele: [references/leser-resonanz.md](references/leser-resonanz.md).
 - **Zahl mit Stich:** Jede Kennzahl trägt eine Konsequenz, die überrascht oder wehtut ("und das bedeutet für dich…"). Eine Zahl ohne spürbare Konsequenz wird gestrichen oder umformuliert - reine Zahlenaufzählung ist der häufigste Langeweile-Grund.
 - **PASTOR-Überlagerung:** Der Post beginnt spürbar beim Problem des Lesers, nicht in Ruhe bei Christophs Szene. Christophs Szene dockt schnell an die Leser-Realität an (Mapping in [references/leser-resonanz.md](references/leser-resonanz.md)).
+- **Vollständige Sätze statt abgehängter Fragmente.** Kurze Absätze heißen nicht zerhackte Sätze. Verboten ist der verblose Nachklapp: ein vollständiger Satz, dem ein Fragment ohne Verb hinterhergeschoben wird, um Rhythmus zu erzeugen. Beispiele für das Muster, das nicht mehr vorkommen darf: "Und in dem Moment stimmt das sogar. Für sie." oder "Ohne es einmal auszusprechen. Nicht vor der Geschäftsführung, nicht im Führungskreis." Richtig ist stattdessen ein vollständiger Satz, notfalls ein längerer: "Ihre Geschäftsführung hielt sie für stabil, ihr Führungskreis ebenfalls." Kurze Sätze bleiben ausdrücklich erwünscht, solange sie Subjekt und Verb haben. **Höchstens ein bewusstes Fragment pro Post**, und nur, wenn es eine eigene Aussage trägt (z. B. "Ein Jahr."), nie als Anhang an den Satz davor. Zwei oder mehr Fragmente in Folge sind immer ein Fehler.
+- **Keine Negativ-Verstärkung.** Das Muster "Nicht X. Sondern Y." und seine Verwandten ("Das ist keine Charakterfrage.", "Nicht aus Trotz. Aus Gewohnheit.", "Nicht im fehlenden Werkzeug. Im fehlenden Gespräch davor.") wirkt eingebaut und generisch. Es klingt nach Tiefe, sagt aber nur, was der Satz nicht meint. Der verneinte Teil ist fast immer eine Abstraktion, die der Leser gar nicht erwartet hätte ("Werkzeug", "Motivation", "Charakter"), also ist die Verneinung wertlos. Regel: die Aussage direkt hinschreiben. Aus "Genau da liegt die Lücke. Nicht im fehlenden Werkzeug. Im fehlenden Gespräch davor." wird ein Satz, der sagt, welches Gespräch fehlt und warum es keins gibt. **Eine solche Konstruktion pro Post ist die Obergrenze**, und nur zulässig, wenn der verneinte Teil das ist, was der Leser tatsächlich annehmen würde, und selbst konkret ist (z. B. "Sie hat es nicht der Geschäftsführung gesagt, sondern ihrem Coach."). Im Zweifel streichen.
 - Aktiv statt Passiv (Zombie-Test: Funktioniert der Satz auch mit "von Zombies" dahinter? Wenn ja, umformulieren. "Der Prozess wurde begleitet [von Zombies]" → passiv, umformulieren zu "Ich habe den Prozess begleitet.")
 - "sehr", "wirklich", "extrem" streichen
 - Satzlängen variieren: kurze Sätze für Wirkung, mittlere für Erklärung
@@ -252,6 +257,8 @@ Die Bildkandidaten kommen aus dem getaggten Bildindex in Airtable, nicht aus Ad-
 
 Rufe den `/humanizer`-Skill auf, um KI-typische Muster zu entfernen (Füllwörter, vorhersehbarer Satzrhythmus, hohle Übergänge).
 
+**Zwei Muster explizit mitbeauftragen**, weil sie in Christophs Feedback wiederholt aufgefallen sind und der Humanizer sie sonst nur teilweise erwischt: abgehängte Satzfragmente ohne Verb und die Negativ-Verstärkung "Nicht X. Sondern Y." (Details in den Schreibregeln in Phase 3). Beide sind vor der Abgabe manuell zu zählen, nicht nur dem Humanizer zu überlassen.
+
 **Wichtig:** Der Hook (erste 1–3 Zeilen) wurde in Phase 2 bewusst für Spannung konstruiert. Weise den Humanizer-Durchgang an, den Hook unangetastet zu lassen – eine "Natürlicher machen"-Umformulierung würde die Copywriting-Struktur zerstören, die den Hook wirksam macht.
 
 **Präzisions-Schutz (Pflicht nach dem Humanizer-Durchgang):** Der Humanizer darf keine kontextkritischen Wörter streichen. Dazu zählen Fachbegriffe und Methodennamen (z. B. Psychologische Sicherheit, Change-Kommunikation), Qualifizierer, die die Aussage verändern (nur, immer, zuerst, selten, fast), Verneinungen und Zahlen. Gleiche das Ergebnis Wort für Wort gegen die von Christoph gewählte Variante ab: Ist ein bedeutungstragendes Wort verschwunden oder ein Satz durch die Straffung ungenau geworden, stelle es wieder her. Lieber ein etwas längerer, aber präziser Satz als ein glatter, der den Sinn verliert. (Adressiert Christophs Kritik "lässt teilweise wichtige Wörter weg, die für den Kontext wichtig sind".)
@@ -267,6 +274,9 @@ Vor Abgabe an Christoph prüfen:
 - [ ] Kategorie und Cluster sind mit dem monatlichen Format-Mix abgeglichen, und der Post ist einem festen Slot zugeordnet (Montag, Mittwoch oder in Stufe 2 Freitag), keine zweite gleiche Kategorie und kein zweiter Post aus demselben Cluster in derselben Woche
 - [ ] Zieltag und Veröffentlichungszeit 07:00 sind bei der Übergabe angegeben
 - [ ] Hook ist neu, konkret, wurde noch nicht verwendet
+- [ ] Hook hat den Interessantheits-Filter passiert (nicht auf ein anderes Thema übertragbar, enthält neue Information, lässt Spannung offen), kein Vorwurfs-Hook
+- [ ] Keine abgehängten Satzfragmente (verbloser Nachklapp), höchstens ein bewusstes Fragment im ganzen Post, nie zwei in Folge
+- [ ] Höchstens eine Negativ-Verstärkung ("Nicht X. Sondern Y.") im ganzen Post, und nur mit konkretem verneinten Teil
 - [ ] Format ist Text + Bild, außer Carousel wurde ausdrücklich gewünscht oder als Ausnahme begründet (siehe Phase 4)
 - [ ] 2–3 Bildkandidaten aus dem Airtable-Bildindex verlinkt (Feld „Bildvorschläge LinkedIn"), keine zwei aus derselben Bildgruppe, Nutzungszähler berücksichtigt
 - [ ] Abschluss passt zur Kategorie (offene Frage vs. direktiver CTA)

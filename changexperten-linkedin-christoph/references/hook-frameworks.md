@@ -90,6 +90,18 @@ Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil
 
 **Voraussetzung:** Das Detail muss echt sein. Es aus Dramaturgiegründen zu erfinden oder zu schärfen (aus "ein Jahr" wird "14 Monate") ist ausgeschlossen. Fehlt ein echtes Detail, bei Christoph nachfragen statt konstruieren.
 
+## L. Invertierte Selbstauskunft (Die Diagnose als Gegenbeweis)
+
+**Prinzip:** Nimm die Selbstdiagnose einer Gruppe und behaupte das Gegenteil, wobei genau der Akt der Selbstdiagnose der Beleg ist. Formel: "Wenn ein Team sagt, es habe X verloren, hat es X meistens noch." Die Spannung entsteht, weil der Leser die Behauptung zuerst für Rhetorik hält und dann wissen will, womit sie belegt wird.
+
+**Beispiel:** "Wenn ein Team sagt, es habe seine psychologische Sicherheit verloren, hat es sie meistens noch. Bei einem großen Autobauer habe ich vor ein paar Wochen erlebt, warum."
+
+**Warum es trägt:** Es braucht keine Zahl. Damit ist es das einzige kontroverse Framework, das auch für interviewbasierte Posts ohne Datenlage verfügbar ist. Verwandt mit Framework H (Wahrnehmungslücke), aber H braucht zwei Werte, L braucht nur einen ausgesprochenen Satz. In Christophs Themenfeld ist es breit einsetzbar, weil Selbstwahrnehmung und tatsächliches Verhalten bei Führungs- und Kulturthemen fast immer auseinanderfallen.
+
+**Voraussetzung:** Die Selbstauskunft muss echt sein und im Post wörtlich vorkommen. Die Inversion muss im Text auch tatsächlich aufgelöst werden, also erklärt werden, woran man erkennt, dass das Gegenteil zutrifft. Bleibt die Auflösung aus, ist es ein Taschenspielertrick, und der Leser bemerkt ihn.
+
+**Achtung Kernaussage:** Dieses Framework verschiebt die These eines Posts besonders leicht, weil es das Thema von der Sache auf die Wahrnehmung dreht. Der Kernaussage-Abgleich am Ende von Phase 2 ist hier besonders wichtig.
+
 ---
 
 ## Kernprinzipien für alle Hooks
@@ -102,15 +114,26 @@ Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil
 
 ## Der Interessantheits-Filter (Pflicht für jede Variante)
 
-Die häufigste Schwäche ist nicht der falsche Hook, sondern der korrekte und langweilige. Er erfüllt alle Regeln oben und löst trotzdem nichts aus. Jede der 3–5 Varianten in Phase 2 wird deshalb gegen drei Fragen gehalten:
+Die häufigste Schwäche ist nicht der falsche Hook, sondern der korrekte und langweilige. Er erfüllt alle Regeln oben und löst trotzdem nichts aus. Jede der 3–5 Varianten in Phase 2 wird deshalb gegen vier Fragen gehalten:
 
 1. **Übertragbarkeits-Test:** Könnte dieser Hook mit minimaler Änderung unter einem beliebigen anderen Führungspost stehen? Wenn ja, ist er austauschbar und fällt raus. "Führung unter Dauerdruck ist anspruchsvoll geworden" passt überall hin und sagt nichts.
 2. **Informations-Test:** Steht im Hook etwas, das der Leser noch nicht weiß, eine Zahl, ein Zitat, ein Detail, eine Lücke? Ein Hook, der nur eine bekannte Wahrheit bestätigt, ist eine Aufwärmzeile, kein Hook.
 3. **Spannungs-Test:** Bleibt nach der zweiten Zeile etwas offen, das man wissen will? Wenn der Hook seine eigene Pointe schon mitliefert, gibt es keinen Grund weiterzulesen.
+4. **Reibungs-Test:** Kann ich einen konkreten Gegensatz formulieren, den eine kompetente Führungskraft unter diesen Hook schreiben würde ("Sehe ich anders, bei uns war es so…")? Fällt mir nur Zustimmung ein, ist der Hook zu glatt. Zustimmung allein erzeugt ein Like, kein Kommentar. Damit gilt die Kommentar-Probe aus [leser-resonanz.md](leser-resonanz.md) nicht erst in Phase 6 für den fertigen Post, sondern schon in Phase 2 für jede einzelne Hook-Variante.
 
-Ein Hook, der einen der drei Tests nicht besteht, wird ersetzt, nicht überarbeitet. Glätten macht aus einem austauschbaren Hook keinen interessanten.
+Ein Hook, der einen der vier Tests nicht besteht, wird ersetzt, nicht überarbeitet. Glätten macht aus einem austauschbaren Hook keinen interessanten.
 
 **Was einen Hook interessant macht, in dieser Reihenfolge:** eine echte Stimme (Zitat), eine unerwartete Lücke zwischen zwei Werten, ein Detail, dessen Bedeutung noch fehlt, eine verteidigbare These gegen eine gängige Praxis. Was ihn langweilig macht: eine Zusammenfassung des Posts, eine allgemeine Zeitdiagnose, eine Frage ohne Kante.
+
+## Woran sich Reibung erzeugen lässt (heilige Kühe der eigenen Zunft)
+
+Kontroverse Hooks funktionieren bei dieser Zielgruppe dann, wenn sie ein unangetastetes Prinzip der Organisationsentwicklung angreifen, und nicht, wenn sie über den Mittelstand urteilen. Der Angriff von innen heraus wird als Erfahrung gelesen, der Angriff von außen als Belehrung.
+
+Kandidaten für den Angriff: Beteiligung aller an Vision und Werten, psychologische Sicherheit, Feedbackkultur, Purpose, Agilität, Fehlerkultur, Führungsleitbilder, Mitarbeiterbefragungen, New Work, der Workshop als Format, das Führungskräfte-Programm als Antwort auf alles.
+
+**Selbstinklusions-Klausel (Pflicht bei jedem kontroversen Hook):** Zeile zwei muss Christoph selbst in die Kritik einbeziehen. Beispiel: "Vision und Werte gemeinsam mit allen zu erarbeiten, ist die beliebteste Art, Kulturarbeit für drei Jahre stillzulegen. Ich moderiere diese Workshops selbst. Deshalb weiß ich, was danach passiert." Ohne diese Zeile wird aus der These ein Vorwurf an genau den Leser, der gewonnen werden soll. Das ist die positive Form der Regel "keine Vorwurfs-Hooks" weiter unten: nicht nur nicht anklagen, sondern sich selbst mit hineinstellen.
+
+**Grenze:** Reibung entsteht an Prinzipien und Praktiken, nie an Personengruppen. "Berater, die nach dem Workshop weg sind" ist zulässig, weil Christoph zur Gruppe gehört. Eine Spitze gegen HR, gegen Betriebsräte oder gegen "die Mitarbeitenden" ist es nicht.
 
 ## Was zu vermeiden ist
 
@@ -135,10 +158,10 @@ Keine starre Regel, aber eine bewährte Zuordnung als Startpunkt:
 |---|---|
 | Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung |
 | Offer Highlight | Brutal Social Proof, "Day 1"/Zeitanker |
-| Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt |
+| Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt, invertierte Selbstauskunft |
 | Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof |
-| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail |
-| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion |
+| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail, invertierte Selbstauskunft |
+| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion, invertierte Selbstauskunft |
 | Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz, unerklärtes Detail |
 | Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz |
 
@@ -147,6 +170,8 @@ Bei studienbasierten Posts (Trends & Analytics, oft auch Leadership Thought) sin
 Diese Zuordnung ist ein Startpunkt für Phase 2, kein Zwang. Wenn ein anderes Framework für die konkrete Geschichte besser passt, das nutzen.
 
 **Framework G (Leser-Realität) passt kategorieübergreifend** und ist als mindestens eine der 3–5 Hook-Varianten immer mitzuliefern, unabhängig von der Kategorie. Es ist der direkteste Weg zur Leser-Emotion.
+
+**Zweite Pflichtvariante: eine kontroverse.** Neben Framework G liefert jede Hook-Runde mindestens eine Variante aus Contrarian (C), Kognitiver Dissonanz (A) oder Invertierter Selbstauskunft (L), unabhängig von der Kategorie. Die Kategorie-Tabelle oben bestimmt die sichere Variante, nicht das ganze Set. Ohne diese Regel entstehen in belegorientierten Kategorien wie Client Success Story ausschließlich beschreibende Hooks.
 
 ## Die Angle-Transposition (Generierungs-Motor)
 

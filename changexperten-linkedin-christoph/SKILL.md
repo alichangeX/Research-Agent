@@ -44,7 +44,7 @@ Bei der Auswahl von Kategorie oder Themencluster immer als nummerierte Liste im 
 
 **Persönliche Anker** (nur einbauen, wenn es organisch passt, nicht erzwingen): ca. 10 Jahre selbstständig, frisch Papa, Berge/ehrenamtlicher Skilehrer, Mitglied Entrepreneurs' Organization (EO)
 
-**Stil:** Sabina Pawlowska / The People Branding Company – energetisch, warm, selbstironisch, storytelling-getrieben, Du-Ansprache, kurze Absätze (max. 2–3 Zeilen), viel Weißraum, 👉 sparsam als Bullet, Klammer-Asides erlaubt
+**Stil:** Sabina Pawlowska / The People Branding Company – energetisch, warm, selbstironisch, storytelling-getrieben, Du-Ansprache, kurze Absätze (max. 2–3 Zeilen), viel Weißraum, 👉 sparsam als Bullet, Klammer-Asides als Stilmittel erwünscht (siehe Persönliche Note in Phase 3)
 
 ## Monatlicher Post-Mix und Frequenz
 
@@ -159,17 +159,19 @@ Frameworks und Beispiele: [references/hook-frameworks.md](references/hook-framew
 
 Regeln:
 - Empfohlener Startpunkt: die Angle-Transposition aus der Referenzdatei (Pain isolieren → 8–12 Keywords sammeln → mit „Lösung/So…" starten → Keyword-Kern auf andere Angles umdeklinieren). So entstehen die Varianten systematisch statt aus dem Bauch.
-- 3–5 Hook-Varianten aus unterschiedlichen Frameworks/Angles vorschlagen
+- 3 bis 5 Hook-Varianten aus unterschiedlichen Frameworks, verteilt über eine **Mut-Achse**, nicht alle auf derselben Stufe. Verbindlich: mindestens eine sichere Variante (Zitat, Detail, Szene) und mindestens eine, die eine gängige Praxis der eigenen Zunft angreift (Contrarian, steile These, invertierte Selbstauskunft). Fünf handwerklich saubere, aber gleich vorsichtige Varianten sind der häufigste Grund für die Rückmeldung "zu wenig interessant". Die Spreizung über die Mut-Achse ist für Hooks dasselbe, was das Register-Fenster in [references/post-varianten.md](references/post-varianten.md) für den Volltext ist.
+- Die Framework-Zuordnung zur Kategorie in der Referenzdatei gilt für die **sichere** Variante. Sie darf die kontroverse nicht verhindern. Client Success Story ist dort nur mit belegenden Frameworks gelistet, das erzeugt systematisch brave Hooks in genau der Kategorie, die Beweiskraft hat.
 - Mindestens eine Variante muss aus der Leser-Realität starten (Framework G in der Referenzdatei), also aus der in Phase 1 gewählten inneren Lage des Lesers, nicht aus Christophs Szene. So merkt der Leser sofort, dass es um ihn geht.
 - 80/20-Regel: Ergebnis andeuten, Methode zurückhalten
 - Radikale Konkretheit (Zahlen, Zeiträume, Szenen, keine erfundenen Zahlen)
 - Keine generischen rhetorischen Fragen als Hook (Ausnahme: siehe Referenzdatei)
-- **Jeder Hook muss den Interessantheits-Filter der Referenzdatei passieren.** Ein technisch korrekter Hook ist nicht automatisch ein interessanter. Der Filter prüft drei Dinge: Könnte der Hook unter einem beliebigen anderen Post stehen? Enthält er eine Information, die der Leser noch nicht hat? Bleibt nach Zeile zwei eine offene Spannung? Fällt eine Antwort negativ aus, ist der Hook auszutauschen, nicht zu glätten.
+- **Jeder Hook muss den Interessantheits-Filter der Referenzdatei passieren.** Ein technisch korrekter Hook ist nicht automatisch ein interessanter. Der Filter prüft vier Dinge: Könnte der Hook unter einem beliebigen anderen Post stehen? Enthält er eine Information, die der Leser noch nicht hat? Bleibt nach Zeile zwei eine offene Spannung? Und lässt sich ein konkreter widersprechender Kommentar formulieren, den eine kompetente Führungskraft darunter schreiben würde? Fällt eine Antwort negativ aus, ist der Hook auszutauschen, nicht zu glätten. Der vierte Test ist der jüngste und der wichtigste: an ihm scheitern die Hooks, die alle anderen Regeln erfüllen und trotzdem zu brav sind.
 - **Keine Vorwurfs-Hooks.** Ein Hook darf den Leser nicht naiv oder fahrlässig dastehen lassen, bevor Christoph sich selbst einbezogen hat ("Und du glaubst es sogar?"). Das trifft genau die Person, die gewonnen werden soll. Beobachtung ja, Belehrung nein.
 - **Der Hook selbst folgt den Prosaregeln aus Phase 3:** keine abgehängten Fragmente, keine Negativ-Verstärkung.
 - **Keine Gedankenstriche (– oder —) im Hook.** Wirkt wie KI-generierter Text. Statt "X, das Ergebnis überrascht" lieber zwei Sätze oder ein Doppelpunkt.
 - Nur die Hooks liefern, keinen Fließtext, keine Erklärung
 - Auf Auswahl von Christoph warten, bevor Phase 3 beginnt
+- **Kernaussage-Abgleich nach der Auswahl (Pflicht vor Phase 3):** Ein kontroverser Hook verschiebt oft die These des Posts. Halte nach Christophs Wahl in einem Satz fest, welche Kernaussage der gewählte Hook jetzt verlangt, und gleiche sie gegen die Leitquelle/Kernaussage aus Phase 1 ab. Weichen sie ab, ist zu entscheiden: Hook anpassen oder Post auf die neue Kernaussage umbauen. Nie beide Aussagen nebeneinander im Text stehen lassen. Beispiel aus der Praxis: der Hook "Wenn ein Team sagt, es habe seine psychologische Sicherheit verloren, hat es sie meistens noch" verschiebt die These von "Kultur ist ein Regelprozess" auf "Selbstwahrnehmung und Verhalten fallen auseinander". Beides in einem Post ergibt zwei halbe Posts.
 
 ### Phase 3 – Volltext in 3 Varianten
 
@@ -187,12 +189,19 @@ Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 - Alle 3 Varianten bauen auf derselben einen Leitquelle/Kernaussage aus Phase 1 auf - keine Variante darf eine zweite Studie als gleichrangigen Beleg nachziehen, nur um "mehr Substanz" zu wirken
 - **Resonanz- oder Reibungszeile im Haupttext (Pflicht):** Jede Variante enthält mindestens eine Zeile, die den in Phase 1 gewählten Kommentar-Trigger auslöst - entweder einen Satz, den der Leser über sein eigenes Leben hätte schreiben können (Identifikation), oder eine verteidigbare Gegenposition, die zum Ergänzen einlädt (produktive Reibung). Diese Zeile steht im Text, nicht erst in der Schlussfrage. Vorgehen und Beispiele: [references/leser-resonanz.md](references/leser-resonanz.md).
 - **Zahl mit Stich:** Jede Kennzahl trägt eine Konsequenz, die überrascht oder wehtut ("und das bedeutet für dich…"). Eine Zahl ohne spürbare Konsequenz wird gestrichen oder umformuliert - reine Zahlenaufzählung ist der häufigste Langeweile-Grund.
+- **Persönliche Note (mindestens eine pro Post, Pflicht).** Christophs Stimme wird an den Stellen sichtbar, an denen er sich selbst relativiert. Werkzeug dafür ist der **Klammer-Aside**: ein kurzer Einwurf in Klammern, der neben der Aussage steht und sie mit eigener Erfahrung bricht. Bei einer Kennzahl bleibt die Zahl stehen, und der Aside sagt, wie Christoph sie erlebt hat: "[Kennzahl aus der Leitquelle] (ok, diese Zahlen habe ich auch schon anders erlebt)." Die Zahl selbst kommt immer aus der Leitquelle, der Aside erfindet keine Gegenzahl. Der Aside ist der zweite Kommentar-Trigger neben der Resonanzzeile: ein Leser, der eine Zahl selbst anders erlebt hat, schreibt seine Erfahrung eher hin, wenn Christoph den Zweifel zuerst selbst zugelassen hat. Regeln:
+  - **Höchstens zwei pro Post.** Ab dem dritten wird aus der Stimme eine Masche.
+  - **Echter Inhalt statt Füllsel.** Zulässig sind eigene Gegenerfahrung, ein Eingeständnis, Selbstironie. Gestrichen werden Leerformeln wie "(übrigens spannend)" oder "(ja, wirklich)".
+  - **Relativiert die Deutung, nie den Beleg.** Eine harte Kundenkennzahl in einer Client Success Story wird nicht in Zweifel gezogen. Relativiert wird die Verallgemeinerung: "(bei einem anderen Kunden hat genau das nicht funktioniert)".
+  - **Nie im Hook.** Der Hook braucht Behauptungskraft, ein Aside nimmt sie ihm. Die persönliche Note gehört in den Haupttext.
+  - **Klammern, keine Gedankenstriche.** Das Gedankenstrich-Verbot weiter unten gilt auch hier.
+  - Nicht ausschließlich an Zahlen gebunden. Ein Aside darf auch neben einer These oder einer Empfehlung stehen ("einmal pro Quartal, verbindlich (bei uns selbst hat es zwei Anläufe gebraucht)").
 - **PASTOR-Überlagerung:** Der Post beginnt spürbar beim Problem des Lesers, nicht in Ruhe bei Christophs Szene. Christophs Szene dockt schnell an die Leser-Realität an (Mapping in [references/leser-resonanz.md](references/leser-resonanz.md)).
 - **Vollständige Sätze statt abgehängter Fragmente.** Kurze Absätze heißen nicht zerhackte Sätze. Verboten ist der verblose Nachklapp: ein vollständiger Satz, dem ein Fragment ohne Verb hinterhergeschoben wird, um Rhythmus zu erzeugen. Beispiele für das Muster, das nicht mehr vorkommen darf: "Und in dem Moment stimmt das sogar. Für sie." oder "Ohne es einmal auszusprechen. Nicht vor der Geschäftsführung, nicht im Führungskreis." Richtig ist stattdessen ein vollständiger Satz, notfalls ein längerer: "Ihre Geschäftsführung hielt sie für stabil, ihr Führungskreis ebenfalls." Kurze Sätze bleiben ausdrücklich erwünscht, solange sie Subjekt und Verb haben. **Höchstens ein bewusstes Fragment pro Post**, und nur, wenn es eine eigene Aussage trägt (z. B. "Ein Jahr."), nie als Anhang an den Satz davor. Zwei oder mehr Fragmente in Folge sind immer ein Fehler.
 - **Keine Negativ-Verstärkung.** Das Muster "Nicht X. Sondern Y." und seine Verwandten ("Das ist keine Charakterfrage.", "Nicht aus Trotz. Aus Gewohnheit.", "Nicht im fehlenden Werkzeug. Im fehlenden Gespräch davor.") wirkt eingebaut und generisch. Es klingt nach Tiefe, sagt aber nur, was der Satz nicht meint. Der verneinte Teil ist fast immer eine Abstraktion, die der Leser gar nicht erwartet hätte ("Werkzeug", "Motivation", "Charakter"), also ist die Verneinung wertlos. Regel: die Aussage direkt hinschreiben. Aus "Genau da liegt die Lücke. Nicht im fehlenden Werkzeug. Im fehlenden Gespräch davor." wird ein Satz, der sagt, welches Gespräch fehlt und warum es keins gibt. **Eine solche Konstruktion pro Post ist die Obergrenze**, und nur zulässig, wenn der verneinte Teil das ist, was der Leser tatsächlich annehmen würde, und selbst konkret ist (z. B. "Sie hat es nicht der Geschäftsführung gesagt, sondern ihrem Coach."). Im Zweifel streichen.
 - Aktiv statt Passiv (Zombie-Test: Funktioniert der Satz auch mit "von Zombies" dahinter? Wenn ja, umformulieren. "Der Prozess wurde begleitet [von Zombies]" → passiv, umformulieren zu "Ich habe den Prozess begleitet.")
 - "sehr", "wirklich", "extrem" streichen
-- Satzlängen variieren: kurze Sätze für Wirkung, mittlere für Erklärung
+- **Satzrhythmus mit Untergrenze.** Kurze Sätze für Wirkung, mittlere für Erklärung, und pro Absatz mindestens ein Satz, der einen Nebensatz trägt. Richtwerte für den ganzen Post: Median nicht unter 10 Wörtern, höchstens ein Drittel der Sätze unter 8 Wörtern, nie mehr als drei Sätze unter 9 Wörtern in Folge. Gedankliche Verbindungen ("weil", "obwohl", "nachdem") gehören in einen Satz, nicht in drei. Ein Post im durchgehenden Kurzsatz-Takt liest sich wie eine Werbetafel und nicht wie Christoph. Diese Regel ergänzt das Fragment-Verbot oben: dort geht es um Sätze ohne Verb, hier um vollständige, aber durchgehend zu kurze Sätze. Beides zusammen ist gemeint, wenn Christoph "nicht so zerhackt" sagt.
 - Keine Klischees ("X ist wie Y"), keine leeren Phrasen ("digitale Landschaft", "Potenziale entfesseln")
 - Kurze Absätze (max. 2–3 Zeilen auf Mobile), viel Weißraum
 - 👉 sparsam, kein Emoji in jeder Zeile, kein durchgehendes Unicode-Bold
@@ -261,6 +270,8 @@ Rufe den `/humanizer`-Skill auf, um KI-typische Muster zu entfernen (Füllwörte
 
 **Wichtig:** Der Hook (erste 1–3 Zeilen) wurde in Phase 2 bewusst für Spannung konstruiert. Weise den Humanizer-Durchgang an, den Hook unangetastet zu lassen – eine "Natürlicher machen"-Umformulierung würde die Copywriting-Struktur zerstören, die den Hook wirksam macht.
 
+**Ebenfalls vor dem Humanizer schützen:** die Klammer-Asides aus Phase 3 und die Satzrhythmus-Untergrenze. Der Humanizer liest Asides als Füllwörter und kürzt Sätze, er würde also genau die zwei Dinge entfernen, die den Post nach Christoph klingen lassen. Gib ihm beides ausdrücklich als Randbedingung mit: Asides bleiben stehen, Sätze werden nicht unter die Richtwerte gekürzt.
+
 **Präzisions-Schutz (Pflicht nach dem Humanizer-Durchgang):** Der Humanizer darf keine kontextkritischen Wörter streichen. Dazu zählen Fachbegriffe und Methodennamen (z. B. Psychologische Sicherheit, Change-Kommunikation), Qualifizierer, die die Aussage verändern (nur, immer, zuerst, selten, fast), Verneinungen und Zahlen. Gleiche das Ergebnis Wort für Wort gegen die von Christoph gewählte Variante ab: Ist ein bedeutungstragendes Wort verschwunden oder ein Satz durch die Straffung ungenau geworden, stelle es wieder her. Lieber ein etwas längerer, aber präziser Satz als ein glatter, der den Sinn verliert. (Adressiert Christophs Kritik "lässt teilweise wichtige Wörter weg, die für den Kontext wichtig sind".)
 
 ### Phase 6 – Qualitätscheck
@@ -269,12 +280,17 @@ Vor Abgabe an Christoph prüfen:
 - [ ] Eine klare innere Leser-Lage und eine dominante Leser-Emotion liegen dem Post zugrunde (aus Phase 1)
 - [ ] Resonanz- oder Reibungszeile ist im Haupttext vorhanden, nicht nur in der Schlussfrage (Kommentar-Probe: je ein zustimmender und ein widersprechender Kommentar sind vorstellbar)
 - [ ] Jede Kennzahl trägt eine spürbare Konsequenz (Zahl mit Stich), keine reine Aufzählung
+- [ ] Mindestens eine persönliche Note (Klammer-Aside) im Haupttext, höchstens zwei, keine im Hook, mit echtem Inhalt
+- [ ] Satzrhythmus geprüft: Median nicht unter 10 Wörtern, keine vier kurzen Sätze in Folge, pro Absatz ein Satz mit Nebensatz
 - [ ] Keine kontextkritischen Wörter durch den Humanizer verloren (Präzisions-Schutz aus Phase 5 durchgeführt)
 - [ ] Alle 3 Varianten liegen innerhalb des kategoriegerechten Register-Fensters (siehe [references/post-varianten.md](references/post-varianten.md))
 - [ ] Kategorie und Cluster sind mit dem monatlichen Format-Mix abgeglichen, und der Post ist einem festen Slot zugeordnet (Montag, Mittwoch oder in Stufe 2 Freitag), keine zweite gleiche Kategorie und kein zweiter Post aus demselben Cluster in derselben Woche
 - [ ] Zieltag und Veröffentlichungszeit 07:00 sind bei der Übergabe angegeben
 - [ ] Hook ist neu, konkret, wurde noch nicht verwendet
-- [ ] Hook hat den Interessantheits-Filter passiert (nicht auf ein anderes Thema übertragbar, enthält neue Information, lässt Spannung offen), kein Vorwurfs-Hook
+- [ ] Hook hat alle vier Tests des Interessantheits-Filters passiert (nicht übertragbar, neue Information, offene Spannung, **Reibung**: ein konkreter widersprechender Kommentar ist formulierbar), kein Vorwurfs-Hook
+- [ ] Die 3 bis 5 Hook-Varianten waren über die Mut-Achse gespreizt, mindestens eine kontroverse darunter
+- [ ] Kontroverse Hooks erfüllen die Selbstinklusions-Klausel (Christoph bezieht sich selbst ein)
+- [ ] Kernaussage-Abgleich nach der Hook-Wahl durchgeführt, Post trägt genau eine These
 - [ ] Keine abgehängten Satzfragmente (verbloser Nachklapp), höchstens ein bewusstes Fragment im ganzen Post, nie zwei in Folge
 - [ ] Höchstens eine Negativ-Verstärkung ("Nicht X. Sondern Y.") im ganzen Post, und nur mit konkretem verneinten Teil
 - [ ] Format ist Text + Bild, außer Carousel wurde ausdrücklich gewünscht oder als Ausnahme begründet (siehe Phase 4)
@@ -304,3 +320,17 @@ Vor Abgabe an Christoph prüfen:
 - [references/performance-tracking.md](references/performance-tracking.md) – Mechanismus für das Themen-Recycling in Phase 0
 - [references/example-posts.md](references/example-posts.md) – Beispiel-Post mit vollständigem Breakdown
 - [references/algorithmus-2026.md](references/algorithmus-2026.md) – Praxisregeln zu Algorithmus, Timing, Format, KPIs
+
+
+## Änderungsverlauf
+
+**31.07.2026** (nach der Hook-Überarbeitung des Autobauer-Posts, ausgelöst durch die Rückmeldung "noch kontroverser und interessanter"):
+
+- Phase 2: Mut-Achse eingeführt, mindestens eine kontroverse Hook-Variante ist Pflicht. Grund: fünf handwerklich korrekte, aber gleich vorsichtige Varianten haben den Interessantheits-Filter bestanden und trotzdem nicht getragen.
+- Phase 2: Kernaussage-Abgleich nach der Hook-Wahl als Pflichtschritt, weil ein kontroverser Hook die These des Posts still verschieben kann.
+- Phase 3: Persönliche Note (Klammer-Aside) als Pflicht, mindestens eine pro Post.
+- Phase 3: Satzrhythmus mit messbarer Untergrenze. Die alte Regel "Satzlängen variieren" hatte keinen Maßstab, deshalb blieb das Stakkato aus vollständigen Kurzsätzen unbeanstandet.
+- Phase 5: Klammer-Asides und Satzrhythmus explizit vor dem Humanizer geschützt.
+- Phase 6: fünf neue Prüfpunkte.
+- `references/hook-frameworks.md`: Framework L (invertierte Selbstauskunft), Reibungs-Test als vierter Test im Interessantheits-Filter, Abschnitt zu den heiligen Kühen der eigenen Zunft samt Selbstinklusions-Klausel.
+- `references/leser-resonanz.md`: Klammer-Aside als zweites Identifikations-Werkzeug neben der Resonanzzeile.

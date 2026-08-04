@@ -102,6 +102,19 @@ Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil
 
 **Achtung Kernaussage:** Dieses Framework verschiebt die These eines Posts besonders leicht, weil es das Thema von der Sache auf die Wahrnehmung dreht. Der Kernaussage-Abgleich am Ende von Phase 2 ist hier besonders wichtig.
 
+## M. Das Verbot (Der Befehl gegen die Intuition)
+
+**Prinzip:** Zeile 1 ist ein Imperativ, der etwas verbietet oder absagt, das der Ziel-Leser gerade tut, budgetiert oder plant. Kein Kontext, keine Zahl, maximal zwei Zeilen bis zur ersten Reibung. Der Leser muss stehen bleiben, weil der Satz sein laufendes Vorhaben angreift. Die Auflösung (unter welcher Bedingung das Verbot gilt) kommt erst nach dem "Mehr anzeigen".
+
+**Beispiele (im Praxistest von Christoph freigegeben):** "Streicht eure KI-Schulungen. Alle." / "Sagt euer nächstes Change-Projekt ab. Euer Team hat das Letzte noch gar nicht verdaut." / "Hängt eure Werte-Poster ab."
+
+**Regeln:**
+- Das Verbot muss im Textverlauf **bedingt** aufgelöst werden ("Erst wenn X geklärt ist, hat Y einen Zweck"), sonst ist es Krawall ohne Substanz. Der Post liefert die Bedingung und die konkrete Alternative im Wortlaut.
+- Ziel des Verbots ist eine Praktik oder ein Reflex (Schulungsreflex, Projektstart, Poster), nie eine Person oder Gruppe. Kandidaten: siehe heilige Kühe unten.
+- Selbstinklusions-Klausel gilt wie bei jedem kontroversen Hook, hier oft als Zunft-Selbstkritik im Haupttext ("Wir Berater verdienen an dieser Bequemlichkeit mit"), aber nicht als stehende Formel in jedem Post.
+- Nur für recherchebasierte Kategorien (Leadership Thought, Trends & Analytics, Actionable Guide, Personal Hot Take). Bei Personal Milestone und Company Wins zerstört ein Verbots-Hook die Nahbarkeit, dort ist er ausgeschlossen.
+- Nicht in zwei aufeinanderfolgenden Posts (Archetypen-Rotation, siehe SKILL.md Phase 3).
+
 ---
 
 ## Kernprinzipien für alle Hooks
@@ -143,7 +156,7 @@ Kandidaten für den Angriff: Beteiligung aller an Vision und Werten, psychologis
 ❌ Hooks wiederverwenden – jeder Hook ist einzigartig, auch bei ähnlichen Themen
 ❌ **Vorwurfs-Hooks**, die den Leser naiv dastehen lassen, bevor Christoph sich selbst einbezogen hat ("Und du glaubst es sogar?"). Sie treffen genau die Person, die gewonnen werden soll
 ❌ **Abgehängte Fragmente** als Rhythmus-Trick ("Sie sagen: gut. Und du glaubst es. Jedes Mal.") – vollständige Sätze, notfalls längere, siehe Schreibregeln in SKILL.md Phase 3
-❌ **Negativ-Verstärkung** im Hook ("Nicht das Tool ist das Problem. Das Gespräch ist es.") – die Aussage direkt formulieren
+❌ **Negativ-Verstärkung** in Hook und Text, Nullregel seit 03.08.2026 ("Nicht das Tool ist das Problem. Das Gespräch ist es." / "Dein Rollout scheitert nicht an X. Er scheitert an Y.") – die Aussage direkt formulieren; Achtung: das Muster tarnt sich auch als zugespitzter Hook, ein Verbot (Framework M) oder eine Bedingung mit Prognose ("Zeig mir euren Plan. Wenn dort nicht X steht, sage ich dir, wie es ausgeht") leisten dieselbe Schärfe ohne die Konstruktion
 ❌ **Themen-Ansage statt Hook** ("Die Leadership-Studie 2026 zeigt Interessantes zum Thema Belastung") – die Quelle gehört in den Beleg, nicht in Zeile 1
 
 ## Ausnahme: Fragen-Hooks
@@ -156,14 +169,14 @@ Keine starre Regel, aber eine bewährte Zuordnung als Startpunkt:
 
 | Kategorie | Bevorzugte Frameworks |
 |---|---|
-| Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung |
+| Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung, das Verbot |
 | Offer Highlight | Brutal Social Proof, "Day 1"/Zeitanker |
 | Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt, invertierte Selbstauskunft |
-| Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof |
-| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail, invertierte Selbstauskunft |
-| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion, invertierte Selbstauskunft |
+| Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof, Neugier-Lücke ("Zwei Dinge aus dem Plan sind nicht passiert") |
+| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail, invertierte Selbstauskunft, das Verbot |
+| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion, invertierte Selbstauskunft, das Verbot, offener Dissens gegen die zitierte Quelle ("Ich glaube diese Zahlen nicht. Und ich sage auch, warum.") |
 | Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz, unerklärtes Detail |
-| Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz |
+| Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz, das Verbot |
 
 Bei studienbasierten Posts (Trends & Analytics, oft auch Leadership Thought) sind Wahrnehmungslücke (H) und Hochrechnung (J) die naheliegenden Startpunkte, weil sie eine Zahl in Spannung oder in Betroffenheit übersetzen, statt sie zu referieren.
 

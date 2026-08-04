@@ -72,3 +72,79 @@ kostenlosen 10-Minuten-Test entwickelt.
 ```
 
 Direktive CTAs eignen sich für Offer Highlight, Client Success Story, Company Wins. Offene Fragen bleiben Standard für Leadership Thought und Personal Milestone.
+
+---
+
+## Beispiel 2: Trends & Analytics mit Verbots-Hook (Framework M), freigegeben 03.08.2026
+
+Dieser Post entstand als geschärfte V2 eines Pipeline-Posts und wurde von Christoph redigiert und freigegeben. Er zeigt die Regeln vom 03.08.2026 im Zusammenspiel. Die kursiv markierten Stellen sind Christophs Redigat, sie zeigen, wie er präzisiert.
+
+```
+Streicht eure KI-Schulungen. Alle.
+
+Ich meine das ernst. Das Geld ist verbrannt, solange eine Frage
+unbeantwortet ist, und die traut sich in kaum einer Führungsebene
+jemand offen zu stellen:
+
+Welche Arbeit fällt weg, und bei wem?
+
+Solange das offen ist, passiert in jedem Rollout dasselbe. Die
+Mitarbeitenden sitzen im Training, nicken, und arbeiten am nächsten
+Tag exakt wie vorher. *Ok, vielleicht nutzen sie ihre KI-Tools nach
+der Schulung für kleinere Anfragen oder Recherchen.* Aber wer nicht
+weiß, was von seiner Rolle bleibt *oder wie sich die Rolle verändern
+wird*, benutzt kein Werkzeug *vollumfänglich*, das genau diese Rolle
+bedroht.
+
+Abwarten ist dann kein Widerstand. Es ist schlicht vernünftig.
+
+*Und das sagen auch die neusten Studien.* Roland Berger hat
+Führungskräfte weltweit befragt: Die größten Hürden der
+KI-Transformation sind *zwar einerseits* die fehlenden Fähigkeiten,
+*andererseits aber auch die Anpassung der Organisation selbst*. Die
+Technik kommt erst an dritter Stelle. Und 59 Prozent sagen, das
+eigene Führungsteam sei gar nicht darauf vorbereitet.
+
+Trotzdem lautet die Standardantwort auf jedes stockende KI-Projekt
+erstmal: mehr Schulung.
+
+Warum? Weil Schulung bequem ist. Sie tut niemandem weh, sie hat ein
+Budget, einen Kalendereintrag und einen Haken zum Setzen. Die
+Rollenfrage hat aber erstmal nichts davon. Sie hat nur Konflikte.
+
+Wir Berater verdienen an dieser Bequemlichkeit übrigens mit. Ein
+Trainingskonzept verkauft sich leichter als der Satz, dass Aufgaben
+verschwinden und nicht jeder mitgehen wird.
+
+*In einem aktuellen Projekt zur KI-Einführung habe ich dazu auch die
+Aussage bekommen: "Eigentlich wollen wir gar nicht festlegen, was
+sich für die Leute verändert. Wir könnten sie zu arg einengen."*
+
+Erst wenn schwarz auf weiß steht, welche Tätigkeiten die KI übernimmt
+und was die betroffenen Menschen künftig stattdessen tun, hat ein
+Training einen Zweck. Vorher ist es Beschäftigungstherapie mit
+Anwesenheitsliste. *Das war auch schon bei klassischen IT-Projekten
+(ohne KI-Fähigkeiten) so der Fall.*
+
+Ist das deiner Meinung nach zu hart formuliert oder längst
+überfällig? 👇
+
+#ChangeManagement #KI
+
+---
+Erster Kommentar:
+Die Quelle: Roland Berger, „The AI-First Organization" (2026),
+Befragung von 472 Führungskräften weltweit: [Link]
+```
+
+**Breakdown:**
+
+- **Hook = Framework M (Verbot):** Zwei Zeilen, kein Kontext, greift ein laufendes Budget des Ziel-Lesers an. Auflösung (die Bedingung) kommt erst spät im Text: "Erst wenn schwarz auf weiß steht…".
+- **Keine einzige Negativ-Verstärkung.** Die Schärfe kommt aus Verbot, Konsequenzkette ("Wer nicht weiß… benutzt kein Werkzeug…") und Preis-Formulierung ("Abwarten ist dann… schlicht vernünftig").
+- **Konzessions-Regel (Christophs Redigat):** "Ok, vielleicht nutzen sie ihre KI-Tools für kleinere Anfragen" nimmt das offensichtliche Gegenbeispiel vorweg. "vollumfänglich" qualifiziert die absolute Behauptung. "zwar einerseits… andererseits" gibt den Studienbefund differenziert wieder. Die These selbst bleibt unverändert hart.
+- **Brückensatz vor dem Beleg:** "Und das sagen auch die neusten Studien." Die Studie ist Bestätigung, nicht Aufhänger.
+- **Benannter Gegner:** der Schulungsreflex, eine Praktik. Plus Zunft-Selbstkritik ("Wir Berater verdienen mit"), die den Verkaufs-Verdacht entkräftet.
+- **Praxisbeleg als echtes Zitat:** Der Entwurf enthielt `[PLATZHALTER SZENE]`, Christoph hat ihn beim Redigat mit einem realen Projektzitat gefüllt.
+- **Reibungs-Wortprägung:** "Beschäftigungstherapie mit Anwesenheitsliste", genau eine pro Post.
+- **Methodik im ersten Kommentar:** Die 472 Befragten stehen nicht im Text.
+- **CTA mit minimaler Hürde:** Binärfrage, in zwei Wörtern beantwortbar, beide Lager antworten gern.

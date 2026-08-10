@@ -56,4 +56,11 @@ Sind „Keyword-Auswahl" und „Content-Ziel" beide leer, hat das Make-Szenario 
 
 ## Keine Keyword-Kannibalisierung
 
-Vor der Freigabe eines Haupt-Keywords prüfen, ob ein anderer Artikel in Airtable oder Webflow schon darauf optimiert ist. Falls ja: entweder mit Ali/Christoph klären, ob der bestehende Artikel stattdessen aktualisiert wird, oder diesen Artikel auf GEO-Autorität umstellen. Nicht zwei Artikel auf dasselbe Haupt-Keyword laufen lassen.
+Vor der Freigabe eines Haupt-Keywords prüfen, ob ein bereits veröffentlichter Blogartikel dieselbe Suchintention bedient. Zwei Artikel auf dasselbe Haupt-Keyword schwächen sich gegenseitig im Ranking.
+
+- **Bestandsquelle ist der Live-Bestand aus Webflow** – die veröffentlichte Blog-Collection (primär über den Webflow-Connector) oder als Fallback die Übersichtsseite https://www.changexperten.com/blog. **Nicht die SEO-Struktur-Excel** als Prüfgrundlage nutzen: Sie ist ein historischer Recherchestand, dessen Titel und Meta-Daten nicht mehr deckungsgleich mit den Live-Seiten sind. Live schlägt Excel.
+- **Über Suchintention vergleichen, nicht über Wortgleichheit.** „Konfliktgespräch führen" und „Konflikte im Team lösen" teilen Wörter, bedienen aber verschiedene Intentionen – das ist keine Kollision. Entscheidend ist, ob ein Bestandsartikel dieselbe Frage derselben Zielgruppe beantwortet.
+- **Kollision heißt nicht automatisch verwerfen.** Gibt es einen konkreten neuen Anlass (neue Studie/Statistik/Ereignis), ist die Aktualisierung des Bestandsartikels oft der bessere Weg als ein Konkurrenzartikel – mit Ali/Christoph klären, ob aktualisiert statt neu geschrieben wird. Ohne neuen Anlass: diesen Artikel auf GEO-Autorität umstellen oder das Thema fallen lassen.
+- Ist der Live-Bestand nicht abrufbar, das Keyword regulär freigeben und die ungeprüfte Kollisionslage offen vermerken statt zu raten.
+
+Innerhalb der automatisierten Pipeline findet diese Prüfung zweistufig statt: als frühes Gate bei der Themenauswahl (Routine 1) und als zweites Netz vor der finalen Keyword-Freigabe (Routine 2). Bei manuellen Aufträgen greift sie hier an dieser Stelle.

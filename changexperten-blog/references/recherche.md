@@ -19,6 +19,8 @@ Eigene, echte Praxis-Substanz hat immer Vorrang vor generischen Sekundärquellen
 
 Bei der Auswahl auf inhaltliche Passung zur Kernaussage und zum Blog-Winkel achten, nicht nur auf Reichweite der Quelle. Quellen werden nie nach Keyword ausgewählt – die Quelle bestimmt das Keyword, nicht umgekehrt.
 
+Zu jeder verwendeten Quelle direkt beim Recherchieren mitschreiben: Titel, Herausgeber oder Autor, Veröffentlichungsdatum als JJJJ-MM und die Original-URL. Diese vier Angaben braucht der Quellenblock am Artikelende (siehe [textstruktur.md](textstruktur.md)); sie nachträglich zu rekonstruieren kostet mehr Zeit als sie festzuhalten.
+
 **Leitquellen-Regel:** Kommt das Thema aus der Content-Research-Pipeline, ist dort bereits eine Leitquelle benannt (die eine Studie/der eine Artikel, die die Kernaussage trägt) - diese bestimmt den roten Faden des Artikels. Alle zusätzlichen Sekundärquellen (Bücher, weitere Studien, Online-Artikel) dienen ausschließlich dazu, dieselbe Kernaussage zu stützen oder zu vertiefen, nicht dazu, eine zweite, eigenständige These einzuführen. Zwei Studien mit unterschiedlicher Kernaussage nie in einem Artikel zu einer Mischaussage verschmelzen - im Zweifel eine der beiden nur als kurzen Seitenverweis erwähnen oder für einen späteren, eigenen Artikel vormerken.
 
 ## 3. Dokumentation auf dem Laufwerk

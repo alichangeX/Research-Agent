@@ -32,9 +32,20 @@ Ergebnis in einer klaren Tabelle liefern und in die „Seo-Texte"-Datei eintrage
 
 **Kategorie-Hubs** (übergeordnet, ebenfalls verwendbar): `/organisationsentwicklung` · `/teamentwicklung` · `/fuehrungskraefteentwicklung`
 
-**Wichtig:** Keine anderen internen URLs konstruieren oder aus Vermutung ableiten. Passt keine der Listen-URLs thematisch, das offen benennen statt eine ungefähr passende URL zu erfinden.
+**Wichtig:** Diese Leistungsseiten-URLs nie aus Vermutung ableiten oder abwandeln. Passt keine der Listen-URLs thematisch, das offen benennen statt eine ungefähr passende URL zu erfinden. Ausgenommen von dieser festen Liste sind ausschließlich Blog-zu-Blog-Links (siehe „Zweite Ebene" unten), deren gültige URLs live aus Webflow kommen – auch die nie raten.
 
 **Bekannter Altlast-Punkt:** Ältere Blogartikel könnten noch auf falsche, verschachtelte Pfade verlinken (z. B. `/teamentwicklung/teamcoaching` statt `/teamcoaching`). Bei der Überarbeitung bestehender Artikel solche Pfade korrigieren; bei neuen Artikeln von vornherein nur die flachen URLs oben verwenden.
+
+### Zweite Ebene: Blog-zu-Blog-Links (auf veröffentlichte Artikel)
+
+Zusätzlich zu den Leistungsseiten-Links oben verlinkt jeder neue Artikel **2–3 thematisch passende, bereits veröffentlichte Blogartikel**. So entsteht ein dichtes internes Netz, das sowohl SEO (Themencluster, Linkfluss) als auch GEO (Zitierfähigkeit im Kontext) stärkt.
+
+- **Nur wenn der verlinkte Artikel die Aussage wirklich vertieft** – kein Link um des Links willen.
+- **Ankertext natürlich in den Satz einbetten**, kein nacktes Keyword als Anker.
+- **Quelle für gültige Blog-URLs ist ausschließlich der Live-Bestand aus Webflow** – die veröffentlichte Blog-Collection (primär über den Webflow-Connector) oder als Fallback die Übersichtsseite https://www.changexperten.com/blog. **Nie aus dem Gedächtnis und nie aus der SEO-Struktur-Excel** – die Excel ist ein historischer Recherchestand und nicht mehr deckungsgleich mit den Live-Seiten.
+- Ist der Live-Bestand nicht abrufbar: keine Blog-zu-Blog-Links setzen, das offen melden, keine Slugs raten.
+
+Die konkrete Abruf-Mechanik (Connector, Site-/Collection-ID) liegt in der jeweiligen Routine, nicht hier im Skill – dieser Skill legt nur fest, *dass* und *woraus* verlinkt wird.
 
 Externe Links (1–2/1.000 Wörter): seriöse Quellen wie Springer, HBR, McKinsey, BCG, Deloitte, Gallup.
 
@@ -42,28 +53,11 @@ Externe Links (1–2/1.000 Wörter): seriöse Quellen wie Springer, HBR, McKinse
 
 Genau drei Tags vergeben, die den Artikel passend beschreiben. **Nur Tags verwenden, die in Webflow bereits angelegt sind** – keine neuen Tags erstellen. Bei Unsicherheit, welche Tags existieren, vor der Vergabe nachfragen statt zu raten.
 
-## 4. Bilder
+## 4. Bilder und Grafiken
 
-### Anzahl & Platzierung
-- Ca. 1 Bild pro 300–500 Wörter
-- Mindestens 1 Bild „above the fold" (im Einleitungsbereich)
-- Pro H2-Abschnitt möglichst ein Bild vorgesehen
+Vollständig ausgelagert: [bilder-und-grafiken.md](bilder-und-grafiken.md). Dort stehen Drei-Ebenen-Modell, Bildplan, Quellenlogik, Vorlagenkatalog, Grafik-Auftrag und die Lizenzregeln. Diese Datei enthält bewusst keine zweite Fassung davon.
 
-### Bildtypen
-- Verschiedene Bildarten mischen: Stockfotos, Infografiken, Zitatkarten, Modelle/Frameworks
-- Mindestens 1 Infografik oder ein visuelles Zitat (social-media-fähig)
-
-### Herkunft
-1. Passende Bilder im changeXperten-Design auf Unsplash recherchieren (groß, ohne Caption)
-2. Ergänzende Grafiken im CI erstellen (Modelle aus Quellen oder eigenen Trainingsunterlagen) – eher klein, mit Caption. Farben/Stil aus `changexperten-brand`.
-
-### SEO-Optimierung pro Bild
-- Sprechender Dateiname, der das Bildmotiv beschreibt; bei Content-Ziel SEO-Keyword/Beides das Haupt-Keyword darin verwenden
-- Alt-Text: max. 125 Zeichen, in erster Linie **beschreibend** – er erklärt, was auf dem Bild zu sehen ist (Barrierefreiheit). Bei Content-Ziel SEO-Keyword/Beides das Haupt-Keyword einbauen, wenn es die Beschreibung nicht verzerrt; bei GEO-Autorität rein beschreibend, ohne Keyword (in Webflow: Image → Werkzeug → Alt Text → Custom description)
-- Format WebP, optimiert (max. ~150 KB)
-- Header-Bild wird ganz unten im Element „Bild" eingefügt, dort auch Kategorie etc. angeben
-
-Für die Bildauswahl/-optimierung selbst zusätzlich den `image`-Skill nutzen.
+Kurzfassung für den On-Page-Check unten: 1 Hero, 4–6 Motivfotos, mindestens 1 eigene Grafik. Alt-Text max. 125 Zeichen, beschreibend. WebP, ≤150 KB. Kein Bild ohne dokumentierte Herkunft.
 
 ## 5. On-Page-Check (bei jeder Fertigstellung als Tabelle ausgeben)
 
@@ -76,8 +70,9 @@ Der Check ist zweispurig: Grundhygiene gilt immer, die Spur darunter richtet sic
 | Meta-Titel 50–60 Z., Meta-Description 140–160 Z., Slug kurz und sprechend | | |
 | H-Struktur logisch: eine H1, H2 mit mind. 2 H3, Überleitungstexte vorhanden | | |
 | Themen vollständig abgedeckt (verwandte Begriffe/Entitäten da) | | |
-| Interne (2–5) + externe (1–2) Links pro 1.000 W., interne Links aus der verbindlichen Liste | | |
+| Interne Links: Leistungsseiten aus der festen Liste (2–5/1.000 W.) + 2–3 Blog-zu-Blog-Links auf veröffentlichte Artikel (Live-URLs, nicht geraten); externe 1–2/1.000 W. | | |
 | Jede Zahl belegt, mit korrekter Bezugsgröße, Quelle am Satz | | |
+| Quellenblock „Quellen" als letzter Abschnitt: Leitquelle zuerst, Datum JJJJ-MM, Link aufs Original | | |
 | Kernaussage entspricht der Leitquelle, nicht verallgemeinert oder umgedeutet | | |
 
 **Zusätzlich bei Content-Ziel „SEO-Keyword" oder „Beides":**

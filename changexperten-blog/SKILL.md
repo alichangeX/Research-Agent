@@ -110,7 +110,7 @@ Kurzfassung:
 - Keyword-Einsatz richtet sich nach dem Content-Ziel aus Schritt 3:
   - **SEO-Keyword / Beides:** Haupt-Keyword in Title, H1, ersten 100 Wörtern und mind. einer H2 natürlich platzieren, Sekundär-Keywords über die H2/H3-Struktur verteilen. Kollidiert eine Platzierung mit der Kernaussage der Leitquelle, gilt die Vorrangregel: Quelle gewinnt, Content-Ziel auf „GEO-Autorität" umstellen.
   - **GEO-Autorität:** kein Keyword-Zwang, kein Keyword in H1/Titel/Slug/Meta/Alt-Text hineinkonstruieren. Stattdessen die fünf GEO-Pflichten erfüllen: Antwort zuerst als zitierfähiger Kernsatz, jede Zahl mit Quelle und Datum am Satz, H2/H3 als Fragen, Definitions-/Fazit-Block, 2–3 interne Cluster-Links.
-- Quellen: Studien-Links direkt im Text, Bücher nur im Literaturverzeichnis
+- Quellen an zwei Stellen: Studien-Links direkt im Text an der belegten Aussage **und** gesammelt in einer H2 „Quellen" als letztem Abschnitt (Leitquelle zuerst, mit Herausgeber, Datum JJJJ-MM und Link; Bücher nur dort). Format siehe Referenzdatei
 - Editorial, nicht werblich; keine Emojis/Icons, keine verkürzten Einleitungen wie „Wichtig ist:"
 
 ### Schritt 5 – Selbstkritik-Runde
@@ -127,15 +127,17 @@ Text auf Leseflow prüfen: professionell, praxisnah, aktiv statt passiv, **keine
 
 ### Schritt 7 – Meta-Daten, Links, Bilder, On-Page-Check
 
-Alle Details (Meta-Titel/-Description/-Slug, verbindliche interne Linkziele, Tag-Regel, Bildkriterien, On-Page-Check-Tabelle): [references/seo-und-bilder.md](references/seo-und-bilder.md)
+Meta-Titel/-Description/-Slug, verbindliche interne Linkziele, Tag-Regel, On-Page-Check-Tabelle: [references/seo-und-bilder.md](references/seo-und-bilder.md)
+Bilder und Grafiken vollständig: [references/bilder-und-grafiken.md](references/bilder-und-grafiken.md)
 
 Reihenfolge:
 1. Meta-Titel, Meta-Description, Slug, finale H1 erstellen → in „Seo-Texte"-Datei eintragen. Alle vier sind immer Pflicht (Grundhygiene); das Haupt-Keyword gehört nur bei Content-Ziel „SEO-Keyword"/„Beides" hinein, bei „GEO-Autorität" werden sie aus der Kernaussage formuliert
-2. Interne Links (2–5/1.000 Wörter) **ausschließlich** aus der verbindlichen URL-Liste setzen, externe Links (1–2/1.000 Wörter) auf seriöse Quellen
+2. Interne Links auf zwei Ebenen: Leistungsseiten (2–5/1.000 Wörter) **ausschließlich** aus der verbindlichen URL-Liste **plus** 2–3 Blog-zu-Blog-Links auf veröffentlichte Artikel (gültige URLs nur aus dem Live-Webflow-Bestand bzw. /blog, nie geraten – siehe references/seo-und-bilder.md); externe Links (1–2/1.000 Wörter) auf seriöse Quellen
 3. Drei Tags vergeben – **nur** aus bereits in Webflow angelegten Tags, keine neuen erstellen
-4. Bilder recherchieren/erstellen + Alt-Texte (in erster Linie beschreibend; Haupt-Keyword nur bei Content-Ziel SEO-Keyword/Beides und nur, wenn es die Beschreibung nicht verzerrt), WebP, ≤150 KB
-5. On-Page-Check-Tabelle ausfüllen – zweispurig: Grundhygiene immer, dazu die Spur passend zum Content-Ziel. Keine nachträglichen Keyword-Einbauten, um eine Zeile abzuhaken
-6. Thematisch passenden Lead-Magneten als CTA einbinden
+4. Quellenblock am Ende erstellen: H2 „Quellen", Leitquelle zuerst, dann Stützbelege, dann Bücher – jeweils mit Herausgeber, Veröffentlichungsdatum (JJJJ-MM) und Link aufs Original. Datumsangaben aus dem Quellen-Feld der Airtable-Zeile übernehmen
+5. **Bildplan und Grafik** nach [references/bilder-und-grafiken.md](references/bilder-und-grafiken.md): Slots nach dem Drei-Ebenen-Modell anlegen (1 Hero, 4–6 Motivfotos, mindestens 1 eigene Grafik), pro Slot Motiv-Briefing, Quelle, Alt-Text und Dateiname. Kandidaten aus der Tabelle `Blog-Bilder` ziehen, Fallback-Reihenfolge SharePoint-Fundus → Stockfoto → KI. Für die Ebene-3-Grafik eine Vorlage aus `Grafik-Vorlagen` nach Aussagetyp wählen und den Befüllungsauftrag schreiben. Die Form darf die Aussage nicht verfälschen
+6. On-Page-Check-Tabelle ausfüllen – zweispurig: Grundhygiene immer, dazu die Spur passend zum Content-Ziel. Keine nachträglichen Keyword-Einbauten, um eine Zeile abzuhaken
+7. Thematisch passenden Lead-Magneten als CTA einbinden
 
 ### Schritt 8 – Freigabe-Gates (manuell, nicht überspringen)
 
@@ -155,6 +157,8 @@ Kurzfassung:
 
 - Meta-Titel, Meta-Description, Slug-Vorschlag, H1
 - Das verwendete Content-Ziel, bei „GEO-Autorität" mit einem Satz Begründung, warum kein Keyword tragfähig war
+- Quellenblock am Ende des Artikels, Leitquelle zuerst, jede Online-Quelle mit Datum und Link
+- Bildplan als Slot-Tabelle (Drei-Ebenen-Modell, siehe [references/seo-und-bilder.md](references/seo-und-bilder.md))
 - On-Page-Check-Tabelle (siehe [references/seo-und-bilder.md](references/seo-und-bilder.md))
 - **Kein** JSON-LD nötig (nur bei Landingpages Pflicht)
 
@@ -164,7 +168,7 @@ Kurzfassung:
 - [ ] Leitquelle abgerufen, Kernaussage und Zahlen mit exakten Bezugsgrößen festgehalten – **vor** der Keyword-Entscheidung
 - [ ] „Keyword-Auswahl" und „Content-Ziel" gelesen, Freigabe-Prüfung durchgeführt, Ergebnis in Airtable dokumentiert
 - [ ] „Blog-Keywords" (Rohliste) unverändert gelassen
-- [ ] Keine Keyword-Kannibalisierung mit bestehendem Artikel geprüft
+- [ ] Keine Keyword-Kannibalisierung geprüft – gegen den Live-Blog-Bestand (Webflow bzw. /blog), über Suchintention statt Wortgleichheit, nicht gegen die SEO-Struktur-Excel
 - [ ] Struktur Problem → Lösung → Praxis; H2 mit mind. 2 H3, H2-Einleitung max. 4–5 Sätze, Überleitungen vorhanden
 - [ ] 1500–2500 Wörter; Ton editorial, nicht werblich; Sie-Ansprache durchgehend
 - [ ] Meta-Titel, Meta-Description, Slug und H1 vorhanden, H-Struktur logisch (gilt immer, unabhängig vom Content-Ziel)
@@ -172,11 +176,16 @@ Kurzfassung:
 - [ ] Nur bei Content-Ziel GEO-Autorität/Beides: alle fünf GEO-Pflichten erfüllt (zitierfähiger Kernsatz zuerst, Zahl mit Quelle und Datum am Satz, Frage-H2/H3, Definitions-/Fazit-Block, 2–3 interne Cluster-Links)
 - [ ] GEO-Prinzipien angewendet: klare Antwort zuerst, Beweis statt Behauptung, geschärfte Entität
 - [ ] Jede Zahl mit korrekter Bezugsgröße belegt; keine Bezugsgröße umbenannt oder vermischt
+- [ ] Quellenblock („Quellen") als letzter Abschnitt vorhanden: Leitquelle zuerst, Stützbelege danach, Bücher zum Schluss, jede Online-Quelle mit Herausgeber, Datum (JJJJ-MM) und Link aufs Original
+- [ ] Nur tatsächlich verwendete Quellen im Block; jede im Text erwähnte Quelle taucht auch im Block auf und umgekehrt
 - [ ] Primärquellen bei Christoph abgefragt oder dokumentiert, warum nicht nötig
 - [ ] 3–6 Bücher, 3–5 Studien, 3–5 Online-Quellen recherchiert und dokumentiert
 - [ ] Selbstkritik-Runde mit Must-Have/Nice-to-Have durchgeführt
-- [ ] Interne Links ausschließlich aus der verbindlichen URL-Liste, keine veralteten verschachtelten Pfade
+- [ ] Leistungsseiten-Links ausschließlich aus der verbindlichen URL-Liste, keine veralteten verschachtelten Pfade; zusätzlich 2–3 Blog-zu-Blog-Links auf veröffentlichte Artikel (Live-URLs, nicht geraten)
 - [ ] Meta-Titel/-Description/-Slug erstellt, drei bestehende Webflow-Tags vergeben
+- [ ] Bildplan vollständig: jeder Slot mit Quelle, Alt-Text und Dateiname, mindestens eine eigene Grafik dabei
+- [ ] Grafikvorlage passt zum Aussagetyp (kein Trichter für gleichrangige Punkte), Slot-Zahl stimmt, Befüllbarkeit geprüft
+- [ ] Jedes Bild mit dokumentierter Herkunft (Quelle, ggf. Lizenz/Prompt/SharePoint-Pfad)
 - [ ] Bilder + Alt-Texte geprüft, Lead-Magnet als CTA eingebunden
 - [ ] Nur freigegebene Proof Points verwendet, keine echten Kundennamen/personenbezogene Daten
 - [ ] Freigabe durch Christoph eingeholt, bevor Webflow-Veröffentlichung erfolgt
@@ -189,7 +198,7 @@ Kurzfassung:
 - Kein nachträgliches Einbauen von Keywords in einen fertigen Text, um eine Prüfzeile abzuhaken
 - Kein werblicher Verkaufston wie auf der Landingpage
 - Kein Keyword-Stuffing, keine Keyword-Dichte-Zielwerte und keine Richtwerte zum Nachzählen – Platzierung an Schlüsselstellen zählt
-- Keine neuen Webflow-Tags, keine internen Links außerhalb der verbindlichen URL-Liste
+- Keine neuen Webflow-Tags; keine Leistungsseiten-Links außerhalb der verbindlichen URL-Liste und keine geratenen Blog-Slugs (Blog-zu-Blog-Links nur aus dem Live-Webflow-Bestand)
 - Keine echten Kundennamen, Vertragsnummern oder personenbezogenen Daten – Fallbeispiele anonymisieren
 - Keine erfundenen Studien, Kennzahlen oder Kundenzitate; keine eigenmächtig hochgerechneten Proof Points
 - Keine Veröffentlichung ohne inhaltliche Freigabe durch Christoph
@@ -213,6 +222,7 @@ Kurzfassung:
 - [references/keyword-und-content-ziel.md](references/keyword-und-content-ziel.md) – Feldrollen (Blog-Keywords, Keyword-Auswahl, Content-Ziel, Haupt-Keyword-Volumen), Freigabe-Prüfung, Schwellenwerte, Kannibalisierung
 - [references/recherche.md](references/recherche.md) – Primär-/Sekundärquellen-Vorgaben und Ablagekonvention
 - [references/textstruktur.md](references/textstruktur.md) – Struktur-, Stil- und GEO-Schreibregeln für den Blogtext
-- [references/seo-und-bilder.md](references/seo-und-bilder.md) – Meta-Tags, verbindliche interne Linkziele, Tag-Regeln, Bildkriterien, On-Page-Check
+- [references/seo-und-bilder.md](references/seo-und-bilder.md) – Meta-Tags, verbindliche interne Linkziele, Tag-Regeln, On-Page-Check
+- [references/bilder-und-grafiken.md](references/bilder-und-grafiken.md) – Bildplan, Bildquellen und Zugriffsarchitektur, Vorlagenkatalog für Grafiken, Grafik-Auftrag, Lizenz- und Einwilligungsregeln
 - [references/proof-points-und-personas.md](references/proof-points-und-personas.md) – freigegebene Kennzahlen und Zielgruppen-Personas
 - [references/veroeffentlichung.md](references/veroeffentlichung.md) – Webflow-Einpflege, Promotion, Tracking

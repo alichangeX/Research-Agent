@@ -7,6 +7,7 @@ Kein Schritt in diesem Dokument beginnt, bevor Christoph den fertigen Artikel fr
 - Meta-Titel + Meta-Description + Slug + H1
 - On-Page-Check-Tabelle (siehe [seo-und-bilder.md](seo-und-bilder.md))
 - Interne Links aus der verbindlichen URL-Liste, externe Links vorhanden
+- Quellenblock am Artikelende vorhanden und vollständig (Leitquelle zuerst, Datum, Link aufs Original)
 - Bilder inkl. Alt-Text, WebP/≤150 KB, sprechende Dateinamen
 - Drei Tags aus bestehenden Webflow-Tags, Kategorie gesetzt
 - Thematisch passender Lead-Magnet als CTA eingebunden
@@ -16,7 +17,7 @@ Bei offenen Rückfragen von Christoph: Klärung abwarten, nicht vorsorglich scho
 
 ## 2. Erstellung in Webflow
 
-1. Artikel im CMS einpflegen: Text, Bilder, interne Links, Alt-Tags, Formatierung
+1. Artikel im CMS einpflegen: Text, Bilder, interne Links, Alt-Tags, Formatierung. Der Quellenblock ist Teil des Rich-Text-Felds am Ende des Artikels, kein separates CMS-Feld; alle Links darin auf „open in new tab" setzen
 2. Meta-Titel und Meta-Description final gegenprüfen (siehe [seo-und-bilder.md](seo-und-bilder.md))
 3. Kategorie eintragen, die drei zuvor festgelegten (bestehenden) Tags anlegen
 4. Artikel veröffentlichen

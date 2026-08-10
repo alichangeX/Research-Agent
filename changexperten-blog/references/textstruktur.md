@@ -8,7 +8,7 @@
 - Direkt nach der H1: kurzer Einleitungstext, max. 3 Sätze, macht Lust auf den Rest des Artikels
 - **H2:** mit **mindestens 2 H3 je H2**, H2-Einleitung max. 4–5 Sätze
 - Zwischen jeder H2 und der ersten folgenden H3 steht immer ein Überleitungstext, nie H2 direkt gefolgt von H3 ohne Text dazwischen
-- Am Ende: Platzhalter für ein Literaturverzeichnis (Bücher aus der Recherche hier auflisten, nicht im Fließtext)
+- **Am Ende: ein Abschnitt „Quellen"** mit allen verwendeten Quellen, Leitquelle zuerst. Pflicht, sobald der Artikel überhaupt eine Quelle trägt – kein Platzhalter, der leer bleiben darf. Format siehe Abschnitt „Quellen im Text und Quellenblock am Ende"
 
 ## Umfang und Keyword-Nutzung
 
@@ -50,11 +50,37 @@ Ob Keywords überhaupt eine Rolle spielen, steuert das Feld „Content-Ziel" (En
 - Starker, einladender Einstieg (Problem oder Frage, die jede Führungskraft kennt), motivierender Abschluss mit Blick nach vorne und klarem CTA
 - **Fallbeispiele immer anonymisieren** – keine echten Kundennamen, Vertragsnummern oder sonstigen personenbezogenen Daten, auch nicht auf ausdrücklichen Wunsch
 
-## Quellen im Text
+## Quellen im Text und Quellenblock am Ende
 
-- Links zu Online-Studien gerne direkt im Fließtext platzieren
-- Bücher aus der Recherche **nur** im Literaturverzeichnis am Ende nennen, nicht im Fließtext zitieren
+Quellen erscheinen an **zwei** Stellen, und die eine ersetzt die andere nicht: inline dort, wo eine Zahl oder Aussage steht, und gesammelt am Artikelende. Inline sorgt für Nachvollziehbarkeit beim Lesen, der Block am Ende macht die Belegbasis des Artikels auf einen Blick sichtbar – ein starkes Signal für Zitierfähigkeit in KI-Antworten und für E-E-A-T.
+
+**Im Fließtext:**
+- Links zu Online-Studien gerne direkt im Fließtext platzieren, an der Stelle, wo die Aussage steht
+- Bücher **nicht** im Fließtext zitieren, sie erscheinen nur im Quellenblock am Ende
 - Keine Quelle im Text erwähnen, die nicht auch tatsächlich recherchiert und dokumentiert wurde (siehe [recherche.md](recherche.md))
+
+**Quellenblock am Ende:** eine H2 „Quellen" als letzter Abschnitt vor dem CTA, als einfache Liste. Reihenfolge und Format:
+
+1. **Leitquelle zuerst** – die eine Studie oder der eine Artikel, der die Kernaussage trägt
+2. Danach die Stützbelege in der Reihenfolge ihres Auftretens im Text
+3. Zum Schluss Bücher und Grundlagenliteratur
+
+Pro Eintrag: Titel, Herausgeber oder Autor, Veröffentlichungsdatum im Format JJJJ-MM, verlinkt auf das Original.
+
+```
+## Quellen
+
+- Gartner, „HR-Prioritäten 2026", 2026-03 → [Link]
+- McKinsey, „Change-Programme im Mittelstand", 2025-11 → [Link]
+- Kotter, John P.: Leading Change, 2. Auflage
+```
+
+Regeln für den Block:
+- Nur Quellen aufnehmen, die im Artikel tatsächlich verwendet wurden. Kein Aufblähen mit ungenutzter Literatur, das wirkt bei KI-Systemen wie bei Lesern durchschaubar
+- Das Veröffentlichungsdatum steht bei jeder Online-Quelle. Es kommt aus dem Quellen-Feld der Airtable-Zeile, wo Routine 1 es bereits als JJJJ-MM hinterlegt hat
+- Auf das Original verlinken, nicht auf einen Aggregator oder eine Pressemeldung darüber
+- Ist eine Quelle inzwischen offline, den Eintrag behalten und als „(Stand JJJJ-MM, nicht mehr abrufbar)" kennzeichnen, statt ihn stillschweigend zu löschen
+- Der Block ist keine Fußnotenlösung: er entbindet nicht davon, Zahlen im Text mit ihrer Quelle zu versehen
 
 ## Verlinkung
 
@@ -70,7 +96,7 @@ Der Blog dient SEO-Sichtbarkeit **und** KI-Zitierfähigkeit (GEO) – nicht dem 
 Bei Content-Ziel „GEO-Autorität" oder „Beides" sind diese fünf Punkte verbindlich und werden im On-Page-Check geprüft. Sie ersetzen bei „GEO-Autorität" den Keyword-Block:
 
 1. **Antwort zuerst:** Die Kernaussage steht als eigenständig zitierfähiger Satz in den ersten zwei bis drei Sätzen – ohne Vorlauf, ohne Rückverweis auf den Kontext, aus dem Zusammenhang gerissen verständlich.
-2. **Belegdichte:** Jede Zahl trägt Quelle und Veröffentlichungsdatum direkt am Satz („laut Gartner, 2026-03"), nicht in einer Fußnote am Ende. Bezugsgrößen exakt benennen und nie umbenennen (Adoptionsrate ist nicht Erfolgswahrscheinlichkeit ist nicht Akzeptanz).
+2. **Belegdichte:** Jede Zahl trägt Quelle und Veröffentlichungsdatum direkt am Satz („laut Gartner, 2026-03") – nicht *nur* gesammelt im Quellenblock am Ende. Beides gilt: Angabe am Satz **und** Eintrag im Block. Bezugsgrößen exakt benennen und nie umbenennen (Adoptionsrate ist nicht Erfolgswahrscheinlichkeit ist nicht Akzeptanz).
 3. **Frage-Zwischenüberschriften:** H2 und H3 sind als echte Fragen formuliert, so wie die Zielgruppe sie stellen würde.
 4. **Definitions- oder Fazit-Block:** Ein Abschnitt gibt die Kernaussage in drei bis fünf Sätzen abgeschlossen wieder und bleibt ohne den umgebenden Text verständlich.
 5. **Interne Verlinkung:** Zwei bis drei Links auf die verbindlichen Cluster-Linkziele aus [seo-und-bilder.md](seo-und-bilder.md), damit der Artikel die Themencluster stützt.

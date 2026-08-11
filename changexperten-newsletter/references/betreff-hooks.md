@@ -19,6 +19,8 @@ Wie bei den LinkedIn-Hooks gilt die 80/20-Logik: Der Betreff deutet das Ergebnis
 
 Der Preview-Text verlängert diese Spannung, statt den Betreff zu wiederholen. Betreff und Preview sind ein Zweiklang: Betreff öffnet die Lücke, Preview vertieft sie, ohne sie zu schließen.
 
+Geschlossen wird die Lücke erst vom **Titel der Ausgabe** oben im Mailkörper – dort ist der Leser schon drin, und Zurückhalten würde nur noch nerven. Betreff und Preview arbeiten mit der 80/20-Logik, der Titel nicht.
+
 ## Die Hook-Typen (aus den LinkedIn-Frameworks adaptiert)
 
 ### 1. Leser-Realität (der Spiegel)
@@ -69,6 +71,7 @@ Kein Zwang, nur ein Startpunkt. Immer 3–5 Varianten aus unterschiedlichen Type
 2. Zu jeder Variante gehört ein eigenständiger Preview-Vorschlag (~90–140 Zeichen), der die Lücke vertieft
 3. Alle gegen die Rahmenbedingungen prüfen: Länge, keine Spam-Trigger, kein Angebot verraten, kein Gedankenstrich
 4. Auf Christophs Auswahl warten, dann erst den Volltext schreiben
+5. Erst beim Volltext (A3) den **Titel der Ausgabe** bilden: Er steht oben im Mailkörper und hat die umgekehrte Aufgabe des Betreffs – er schließt die Neugierlücke, statt sie zu öffnen. Praktische Ableitung: Nimm die Auflösung, die der gewählte Betreff bewusst zurückhält, und formuliere sie als Sache in 30–60 Zeichen. Aus dem Betreff „Der teuerste Widerstand ist der, den du nicht siehst" wird der Titel „Stiller Widerstand: die drei Signale". Nie eine Umformulierung des Betreffs, nie das Angebot nennen. Vollständige Regeln im Abschnitt „Betreff, Preview und Titel" des SKILL.md
 
 ## Die Angle-Transposition (Generierungs-Methode aus Moby Digg, für Content adaptiert)
 

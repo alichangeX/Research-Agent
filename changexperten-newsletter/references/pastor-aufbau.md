@@ -37,9 +37,13 @@ Vor dem Finalisieren gegen den Text halten:
 
 Thema: die Stillen im Change. Zielsegment: Geschäftsführer/Führungskräfte, Cluster Change. Kernaussage: Widerstand zeigt sich nicht im lauten Widerspruch, sondern im stillen Nicken. Alle Zahlen sind echte changeXperten-Proof-Points.
 
+Beachte am Kopf des Beispiels, wie die drei Texte zusammenspielen: Der Betreff öffnet die Lücke („warum?"), der Preview vertieft sie („die Nicker"), der Titel schließt sie und sagt, was der Leser jetzt bekommt („die drei Signale"). Keiner der drei wiederholt einen anderen.
+
 ```
 Betreff: Warum euer Change an den Stillen scheitert
 Preview: Die Lauten im Workshop sind nicht das Problem. Die Nicker sind es.
+
+Titel: Stiller Widerstand: die drei Signale
 
 Hallo Max,
 

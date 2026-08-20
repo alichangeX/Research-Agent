@@ -27,7 +27,7 @@ Jeder Post soll beim Ziel-Leser genau diese Kette auslösen: **erst nachvollzieh
 
 **Zielgruppe:** Geschäftsführer, HR-Leitende, Führungskräfte im DACH-Mittelstand
 
-**Themencluster (sechs Säulen, deckungsgleich mit der monatlichen Content-Research-Routine):**
+**Themencluster (sechs Säulen, deckungsgleich mit der monatlichen LinkedIn-Ideation-Routine):**
 
 1. Change Management
 2. Organisationsentwicklung/Kultur
@@ -48,7 +48,7 @@ Bei der Auswahl von Kategorie oder Themencluster immer als nummerierte Liste im 
 
 ## Monatlicher Post-Mix und Frequenz
 
-Dieser Abschnitt ist der Maßstab für den monatlichen Auswahlschritt (Christoph/Ali entscheiden, welche Themen aus der Airtable-Tabelle „Content-Research" auf „Ausgewählt" gehen). Er ist die einzige verbindliche Quelle für Menge und Verteilung. Die Content-Research-Routine verweist hierauf und wiederholt die Zahlen nicht.
+Dieser Abschnitt ist der Maßstab für den monatlichen Auswahlschritt (Christoph/Ali entscheiden, welche Themen aus der Airtable-Tabelle „LinkedIn-Content" auf „Ausgewählt" gehen). Er ist die einzige verbindliche Quelle für Menge und Verteilung. Die LinkedIn-Ideation-Routine verweist hierauf und wiederholt die Zahlen nicht.
 
 ### Zielmenge und Posting-Tage (verbindlich)
 
@@ -131,20 +131,30 @@ Der **Format-Mix** steuert die monatliche Themenauswahl, nicht die einzelne Anfr
 Überspringen, wenn Christoph bereits ein Thema oder eine Geschichte mitbringt – direkt zu Phase 1.
 
 Sonst:
-1. Themencluster und Kategorie als nummerierte Liste im Text anbieten, aus der frei gewählt werden kann (nicht über Buttons, siehe Hinweis oben). Ist bekannt, was in dem Monat bereits gepostet wurde, die Kategorien und Cluster, die laut Post-Mix noch offen sind, kurz als Empfehlung markieren. Kein Zwang, Christoph wählt frei.
-2. Fragen wie: "Was ist in den letzten zwei Wochen bei dir, in einem Training oder bei einem Kunden hängen geblieben?"
-3. Optional kurze Web-Recherche zu aktuellen Trends im gewählten Cluster für Denkanstöße
-4. **Recycling prüfen:** Details und Vorgehen in [references/performance-tracking.md](references/performance-tracking.md). Kurzfassung: zuerst prüfen, ob ein Performance-Log vorliegt (z. B. als Datei im Chat oder in SharePoint verlinkt). Ist eines vorhanden, die 1–2 Posts mit den meisten Saves/Kommentaren der letzten 4–6 Wochen identifizieren und deren Thema mit neuem Hook und neuer Variante vorschlagen. Ist keines vorhanden, Christoph gezielt fragen: "Gab es in den letzten 4–6 Wochen einen Post, der besonders gut lief? Welches Thema war das?"
-5. Erst wenn ein grobes Rohthema steht: weiter zu Phase 1
+1. **Vorfall-Speicher zuerst (Vorfall-vor-Thema-Prinzip, 17.08.2026):** Bevor Cluster oder Studien angeboten werden, den Vorfall-Speicher prüfen: Tabelle „Vorfälle" in der Base „ChangeXperten" (`appb7eOfe2Au3Lp40`). Dort sammelt Christoph laufend Rohmomente aus Kundenterminen, Trainings und EO-Abenden (wörtliches Zitat, krumme Zahl, absurdes Detail, Datum, ggf. Artefakt-Hinweis). Die Auswahllogik läuft dann: vorhandener Vorfall → passende Studie aus der Pipeline dazu, nicht umgekehrt. Ein Post, der an einem echten Vorfall hängt, schlägt einen thematisch geplanten fast immer. Existiert die Tabelle (noch) nicht oder ist sie leer, das offen sagen und ersatzweise die Vorfall-Fragen aus Schritt 3 stellen – nie stillschweigend in den Studien-zuerst-Modus zurückfallen.
+2. Themencluster und Kategorie als nummerierte Liste im Text anbieten, aus der frei gewählt werden kann (nicht über Buttons, siehe Hinweis oben). Ist bekannt, was in dem Monat bereits gepostet wurde, die Kategorien und Cluster, die laut Post-Mix noch offen sind, kurz als Empfehlung markieren. Kein Zwang, Christoph wählt frei.
+3. Fragen wie: "Was ist in den letzten zwei Wochen bei dir, in einem Training oder bei einem Kunden hängen geblieben?" – und gezielt nach dem Vorfall dahinter bohren: Wann war das (Datum)? Was wurde wörtlich gesagt? Welche Zahl stand im Raum?
+4. Optional kurze Web-Recherche zu aktuellen Trends im gewählten Cluster für Denkanstöße
+5. **Recycling prüfen:** Details und Vorgehen in [references/performance-tracking.md](references/performance-tracking.md). Kurzfassung: zuerst prüfen, ob ein Performance-Log vorliegt (z. B. als Datei im Chat oder in SharePoint verlinkt). Ist eines vorhanden, die 1–2 Posts mit den meisten Saves/Kommentaren der letzten 4–6 Wochen identifizieren und deren Thema mit neuem Hook und neuer Variante vorschlagen. Ist keines vorhanden, Christoph gezielt fragen: "Gab es in den letzten 4–6 Wochen einen Post, der besonders gut lief? Welches Thema war das?"
+6. Erst wenn ein grobes Rohthema steht: weiter zu Phase 1
 
 ### Phase 1 – Strategisches Interview
 
 Vollständiger Fragenkatalog: [references/interview-fragen.md](references/interview-fragen.md)
 
+**Reihenfolge-Prinzip (17.08.2026, abgeleitet aus der Florian-Reich-Analyse): erst „Was ist passiert?", dann „Was heißt das?"** Das Interview beginnt beim Vorfall (Datum, exakte Zahl, wörtlicher Satz, was konkret auf dem Tisch lag), nicht bei These oder Studie. Ein Post über ein Thema, dem nachträglich eine Szene gesucht wird, bleibt strukturell Illustration; ein Post, der aus einem Vorfall wächst, ist von selbst spitz. Die Studie kommt danach als Beleg dazu (Position des Studienbelegs siehe Phase 3).
+
+**Lackmustest (Pflicht, bevor es zu den Hooks geht):** „Hätte diesen Post nur jemand schreiben können, der dabei war?" Lautet die ehrliche Antwort Nein, ist das Rohmaterial zu allgemein – zurück ins Interview, egal wie gut die Leitquelle ist. Der Test wird in Phase 6 am fertigen Text wiederholt.
+
+**Krumme Zahlen (Präzisions-Regel):** Wo eine echte Zahl aus dem Vorfall existiert, wird sie exakt übernommen („83 von 97 Befragten", „47 Tage", „14 Teilnehmer, 3 sind gegangen"), nicht gerundet oder in einen Prozentsatz geglättet. Die krumme Zahl ist der Echtheitsbeweis; runde Zahlen lesen sich wie geschätzt. Gilt nur für echte Werte – niemals eine Zahl krumm erfinden, um echt zu wirken. Studienzahlen bleiben, wie die Quelle sie ausweist.
+
+**Artefakt-Frage (Pflichtteil jedes Interviews):** „Gibt es zu diesem Vorfall ein Dokument, Foto, Flipchart, einen Feedbackbogen, eine Mail, einen Chatverlauf?" Ein echtes, anonymisierbares Artefakt ist der stärkste Bildkandidat (siehe Phase 4) und oft auch der stärkste Hook-Rohstoff. Existiert eines, den Umgang damit direkt klären (Anonymisierungs-Protokoll in Phase 3).
+
 Stelle 6–10 Fragen auf einmal, passend zur Kategorie (nicht alle Blöcke sind bei jeder Kategorie gleich wichtig). Nutze wo sinnvoll `ask_user_input_v0` für einfache Auswahlfragen (z. B. Kategorie, Abschlussart), offene inhaltliche Fragen (Szene, Insight) als Freitext stellen.
 
 **Validierungs-Checkliste, bevor es weitergeht (Details in der Referenzdatei):**
 - Immer Pflicht: konkrete Szene, klarer Insight, Ziel/Abschlussart
+- Immer Pflicht: Lackmustest bestanden und Artefakt-Frage gestellt (Antwort darf Nein sein, aber sie muss gestellt worden sein)
 - Kennzahl/Beleg nur Pflicht bei: Actionable Guide, Trends & Analytics, Client Success Story
 - Bei Personal Milestone, Leadership Thought, Personal Hot Take reicht eine starke Beobachtung ohne Zahl
 - **Eine Leitquelle pro Post:** Liegen mehrere Studien/Artikel als Rohmaterial vor, genau eine als Kernaussage/Rückgrat des Posts auswählen. Eine zweite Studie nur dann erwähnen, wenn sie exakt dieselbe Aussage stützt - nie zwei unterschiedliche Kernaussagen in einem Post mischen, das zerstört den roten Faden und verwässert beide Aussagen.
@@ -177,6 +187,13 @@ Regeln:
 
 Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 
+**Zwei zugelassene Alternativ-Strukturen (17.08.2026, aus der Florian-Reich-Analyse):**
+
+- **Die Übersetzung:** Eine Floskel oder Standardaussage aus dem Alltag der Zielgruppe wird dekodiert. Aufbau: Floskel als Hook (wörtlich, in Anführungszeichen) → „Was das eigentlich heißt:" → 4–6 Übersetzungen mit ❌ als Bullet → Wendung/Insight → Transfer → Abschluss. Beispiel-Rohstoff: „Wir nehmen alle mit", „Das Team steht voll dahinter", „Wir sind da schon dran". Die Übersetzungen müssen aus echter Projekterfahrung stammen und mindestens eine davon selbstironisch die eigene Zunft treffen (Selbstinklusion), sonst kippt das Format in Zynismus gegen die Leser. Dies ist die einzige Struktur, in der ❌-Bullets erwünscht sind; die Regel „👉 sparsam" gilt hier für ❌ entsprechend (nie mehr als 6).
+- **Lager A gegen Lager B:** Eine echte Streitfrage wird als Debatte zweier Positionen inszeniert, die Kontroverse wird an die Leser ausgelagert. Aufbau: Streitfrage als Hook → konkrete Situation → „Lager A sagt:" (3–4 stärkste Argumente) → „Lager B sagt:" (3–4 stärkste Argumente) → Abschluss als Binärfrage („A oder B?"). Beide Lager bekommen ihre beste Version, kein Strohmann. **Ausnahme zur Regel „Kein Absicherungs-Absatz":** Nur in dieser Struktur darf der Post ohne eigene Positionierung enden, weil die Nicht-Positionierung hier der Mechanismus ist, nicht die Absicherung. Bedingung: Die Streitfrage selbst muss Kante haben (eine, bei der sich kompetente Führungskräfte real streiten), und Christoph darf seine Position im ersten Kommentar oder im Laufe der Diskussion nachlegen. Höchstens einmal pro Monat, sonst wirkt das Profil meinungslos. Geeignet für Leadership Thought und Personal Hot Take.
+
+Beide Alternativ-Strukturen ersetzen die Standardstruktur nur, wenn das Rohmaterial sie trägt; im Zweifel gilt die Standardstruktur.
+
 **Position des Studienbelegs (recherchebasierte Posts):** Die Studie ist Beleg, nicht Aufhänger. Der Post beginnt mit These, Szene oder Mechanismus; die Zahl kommt danach als Bestätigung, eingeleitet mit einer kurzen Brücke ("Die Zahlen dazu stehen in…", "Und das sagen auch die neusten Studien:"). Ein Post, der mit "Studie X zeigt: 62 Prozent…" beginnt, hat seine stärkste Zone an eine Fußnote verschenkt. Ausnahme: Framework H (Wahrnehmungslücke), dort ist die Zahlen-Spannung selbst der Hook.
 
 **Archetypen-Rotation (03.08.2026):** Die geschärften Posts folgen unterscheidbaren Zuspitzungs-Archetypen: das Verbot ("Streicht eure KI-Schulungen"), der offene Dissens gegen eine zitierte Quelle ("Ich glaube diese Zahlen nicht"), die direkte Konfrontation des Lesers ("Er verrät mehr über dich als über dein Team"), die Anklage mit Systemkritik ("Ihr habt ihnen das beigebracht"), die Neugier-Lücke ("Zwei Dinge aus dem Plan sind nicht passiert"). Nie derselbe Archetyp in zwei aufeinanderfolgenden recherchebasierten Posts, sonst wird aus der Haltung eine Masche. Gleiches gilt für wiederkehrende Bausteine: Die Berater-Selbstkritik, die kalkulierte Reibungs-Wortprägung ("Beschäftigungstherapie mit Anwesenheitsliste") und der vorlegende Ziffern-CTA sind starke Werkzeuge, aber keins davon in jedem Post. **Kategoriegrenze:** Verbots- und Konfrontations-Archetypen gehören in die recherchebasierten Kategorien. Personal Milestone und Company Wins leben von Nahbarkeit; dort ist die Neugier-Lücke oder eine behutsame Umstellung (Fallhöhe in Zeile 1) das Maximum, ein aggressiver Umbau macht diese Posts unglaubwürdig. Das hat sich im Praxistest bestätigt: Beim Company-Wins-Post wurde die zugespitzte Fassung verworfen, das Original war besser.
@@ -206,6 +223,8 @@ Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 - **Zuspitzung vorn, Präzision im Körper (Konzessions-Regel, aus Christophs Redigat vom 03.08.2026).** Die These im Hook darf und soll absolut sein ("Streicht eure KI-Schulungen. Alle."). Sachbehauptungen im Haupttext dagegen müssen einer kompetenten Führungskraft standhalten. Jede absolute Verhaltens- oder Wirkungsbehauptung ("benutzt niemand", "ändert sich nichts", "passiert in jedem Rollout") bekommt entweder einen Qualifizierer ("benutzt kein Werkzeug vollumfänglich") oder eine kurze Konzession, die das offensichtliche Gegenbeispiel selbst vorwegnimmt, bevor die Aussage weiterläuft ("Ok, vielleicht nutzen sie ihre Tools nach der Schulung für kleinere Anfragen. Aber wer nicht weiß, was von seiner Rolle bleibt…"). Auch Studienbefunde differenziert wiedergeben ("zwar einerseits…, andererseits aber auch…") statt auf eine Einzelaussage zu verkürzen. Der Effekt: Die Konzession impft den Post gegen den naheliegendsten Widerspruch, ohne die These zu entschärfen. Wichtig: pro Behauptung höchstens eine Konzession, und sie steht direkt bei der Behauptung, nicht als eigener Absatz.
 - **Kein Absicherungs-Absatz.** Die Konzessions-Regel gilt für Fakten, nie für die These. Absätze, die beide Seiten entlasten ("Keine der beiden Sichten hat automatisch recht", "Bevor jetzt jemand mit dem Finger zeigt", "natürlich hat beides seine Berechtigung"), werden gestrichen. Der Post wählt eine Seite. Der stärkste erwartbare Einwand wird einmal benannt und widerlegt (oder per Konzession eingebaut), nicht vorauseilend durch Neutralität entschärft. Ein Post, der am Ende beide Parteien schützt, hat keine Position und bekommt keinen Kommentar.
 - **Ein benannter Gegner pro Post (recherchebasierte Kategorien).** Leadership Thought, Trends & Analytics und Actionable Guide benennen konkret, wogegen der Post steht: eine Methode, einen Reflex, eine Branchenmode ("die Standardantwort lautet: mehr Schulung", "noch ein Resilienz-Seminar", "das Werte-Poster"). Zulässige Gegner sind Praktiken und Prinzipien (Kandidatenliste: heilige Kühe in [references/hook-frameworks.md](references/hook-frameworks.md)), niemals Personen, Kundengruppen, HR als Berufsstand oder Politik. Wo die eigene Zunft mitverdient, gehört die Selbstinklusion in den Text ("Wir Berater verdienen an dieser Bequemlichkeit mit"), aber nicht als stehende Formel in jedem Post, die Selbstkritik-Stelle variiert oder entfällt, wenn der Gegner sie nicht hergibt.
+- **Anonymisierungs-Protokoll (17.08.2026): spitz bleiben, Kunde schützen.** Bei jedem Post mit realem Kundenbezug ohne Namensfreigabe gilt: Name und Firma weg, ersatzweise Branche plus Größenordnung („ein Maschinenbauer mit rund 400 Leuten"). Was stehen bleibt, weil es die Spitze trägt: die exakte (krumme) Zahl, der Zeitraum, das wörtliche Zitat, der konkrete Ablauf. Was verboten ist: Weichspülen zur Unkenntlichkeit („ein Kunde von mir hatte mal ein Problem"), denn damit ist der Vorfall wieder austauschbar und der Lackmustest gerissen. Grenzfall-Regel: Wenn Branche plus Zahl plus Zeitraum zusammen den Kunden identifizierbar machen (sehr kleine Branche, öffentlich bekannter Fall), wird genau ein Element unschärfer gemacht, beginnend bei der Branche, nie bei der Zahl. Bestehende Freigabelogik bleibt unberührt: Klarnamen nur nach expliziter Kundenfreigabe.
+- **Krumme Zahlen vor runden.** Echte Werte aus Vorfällen exakt übernehmen („83 von 97", „47 Tage"), nicht runden, nicht in glatte Prozentsätze übersetzen. Die Präzision ist der Echtheitsbeweis. Nie eine Zahl krumm erfinden; Studienzahlen bleiben, wie die Quelle sie ausweist (Details in Phase 1).
 - **Praxisbeleg als Szene oder Platzhalter, nie als Floskel.** Formeln wie "Ich erlebe das immer wieder", "In meinen Projekten sehe ich fast immer dasselbe Muster" oder "Was wir in Workshops beobachten" sind behauptete Erfahrung ohne Beweiskraft und werden gestrichen. Ein Praxisbeleg besteht aus einer Situation und idealerweise einem wörtlichen Satz, den jemand gesagt hat ("In einem aktuellen Projekt zur KI-Einführung habe ich die Aussage bekommen: 'Eigentlich wollen wir gar nicht festlegen, was sich für die Leute verändert.'"). Liegt keine echte Szene vor, wird **niemals eine erfunden**. Stattdessen steht im Entwurf eine sichtbare Markierung: `[PLATZHALTER SZENE: 2 Sätze aus einem realen Projekt zu X]`. Christoph füllt sie beim Redigat, das hat sich in der Praxis bewährt. Ein Post verlässt den Prozess nie mit stehendem Platzhalter, im Qualitätscheck wird geprüft, dass er gefüllt oder gestrichen wurde.
 - **Empfehlung im Wortlaut, nie auf Überschriftenebene.** Handlungsempfehlungen wie "Feedback-Quellen erweitern" oder "es braucht eine kluge Change-Strategie" sind am Montag nicht umsetzbar und fliegen raus. Pro Post genau eine konkrete Sache, ausformuliert bis auf die Ebene, auf der man sie anwenden kann: die Fragen im Wortlaut ("Was ist diese Woche liegen geblieben?"), das Limit als Regel ("Für jede neue Initiative wird eine bestehende beendet. Eins rein, eins raus."), die Agenda als Satz ("einmal pro Quartal, eine Frage: Was ist aus unseren Vereinbarungen im Alltag geworden?"). Eigene Prägungen ("Veränderungsbudget", "Dosierungsproblem") sind erwünscht, sie machen den Leser sprachfähig und werden weitergetragen, aber sie müssen als Christophs Empfehlung erkennbar sein, nicht als Studienergebnis.
 - **Methodik-Details in den ersten Kommentar.** Stichprobengrößen, Befragtenzahlen und Erhebungsdetails ("befragt wurden 220 Führungskräfte und 135 Personalentwickler:innen") stehen nie im Post-Text, sie bremsen an der Stelle, an der der Post tragen muss. Sie gehören mit der Quelle in den ersten Kommentar. Im Text bleibt nur, was die Aussage trägt (die Kernzahl, der Herausgeber, wenn er Gewicht gibt: "Roland Berger hat Führungskräfte weltweit befragt").
@@ -219,6 +238,10 @@ Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 - **Keine Gedankenstriche (– oder —) als Stilmittel.** Weder im Fließtext noch im Hook noch in Carousel-Slide-Titeln. Wirkt 2026 als eines der stärksten Signale für KI-generierten Text. Stattdessen: Punkt und neuer Satz, Komma, Doppelpunkt oder "und" verwenden. Beispiel: "Er hat gekündigt – ich habe applaudiert" wird zu "Er hat gekündigt. Ich habe applaudiert." Bindestriche in zusammengesetzten Wörtern (Change-Management, Co-Piloting) sind davon nicht betroffen und weiterhin normal zu verwenden.
 
 **Abschluss – oberstes Prinzip: minimale Interaktionshürde (03.08.2026).** Der Maßstab für jeden Abschluss ist, wie wenig der Leser tippen muss, um sinnvoll zu antworten. Bewährte Stufen, von der niedrigsten Hürde aufwärts: eine Binärfrage ("Ist das deiner Meinung nach zu hart formuliert oder längst überfällig? 👇", "Ja oder Nein reicht."), eine einzelne Zahl oder Ziffer ("Wie viele Initiativen laufen bei euch gerade parallel? Schreib die Zahl in die Kommentare.", "Welche der vier kennst du von dir? Nummer reicht."), eine kurze offene Frage mit klarem Bezug ("Was empfiehlst du? 👇"). **Verboten:** Fragen, die eine Geschichte oder mehrteilige Antwort verlangen ("Erzähl mal, wie ihr das gelöst habt"), Doppel- und Mehrfachfragen, abstrakte Reflexionsfragen ("Woran erkennt ihr…?" ist die höchste Hürde und die am wenigsten beantwortete). Zwei Verstärker, die sich bewährt haben: Bei Ziffern-CTAs legt Christoph selbst vor ("Ich lege vor: die 4."), das senkt die Eingeständnis-Hürde. Und der CTA darf auf den ersten Kommentar zeigen ("Die Studie dazu findest du übrigens in den Kommentaren."), das lenkt Leser aktiv in den Kommentarbereich, wo sie eher selbst schreiben.
+
+**Serien-Mechanik (17.08.2026):** Ein laufender, noch nicht abgeschlossener Fall darf bewusst offen enden („Ich halte euch auf dem Laufenden."). Die offene Schleife bindet Follower über den Einzelpost hinaus und liefert den Folge-Post gleich mit. Regeln: nur bei echten, tatsächlich offenen Vorgängen (nie künstlich offen halten, was abgeschlossen ist); die Fortsetzung erscheint innerhalb von 2 bis 6 Wochen und beginnt mit einem Ein-Satz-Rückbezug für Neueinsteiger; jede Folge belegt einen regulären Slot und muss als Einzelpost funktionieren; höchstens eine offene Serie gleichzeitig; wird ein Fall doch nicht fortsetzbar (z. B. Kunde zieht zurück), die Schleife im nächsten passenden Post ehrlich schließen statt sie versanden zu lassen.
+
+**PS-Trennung für verkaufsnahe Elemente:** Wo ein CTA auf ein Angebot, einen Test oder einen Lead-Magneten zeigt (zulässig nur in den Kategorien laut Kategoriefeinheiten unten), steht er als abgetrenntes „PS:" nach der Abschlussfrage, nie im Haupttext. Der Haupttext bleibt durchgehend redaktionell; die Abschlussfrage gehört zum Inhalt, das PS zum Geschäft. So bleibt der Post teilbar, und der CTA läuft trotzdem mit. Das PS ersetzt nicht den ersten Kommentar (Quelle/Methodik bleiben dort).
 
 **Kategoriefeinheiten dazu:**
 - **Leadership Thought, Trends & Analytics, Personal Milestone:** Binärfrage oder Ziffer bevorzugt; kurze offene Frage zulässig.
@@ -252,14 +275,26 @@ Details zur Algorithmus-Logik dahinter: [references/algorithmus-2026.md](referen
 
 Bei Carousel (Ausnahmefall): Slide-Outline liefern (Titel + Kernsatz pro Slide), keine fertige Grafik – die Gestaltung erfolgt separat in PowerPoint im Corporate Design.
 
-#### Bildauswahl aus dem Bildindex (Pflicht bei Format Text + Bild)
+#### Stufe 1 der Bildwahl: Artefakt-Bild prüfen (17.08.2026, Vorrang vor dem Bildindex)
+
+Das stärkste Bild ist der Beweis, nicht die Illustration. Bevor der Bildindex durchsucht wird, prüfen, ob aus der Artefakt-Frage in Phase 1 ein echtes, anonymisierbares Artefakt vorliegt: Flipchart-Foto, geschwärzter Auszug aus einem Feedbackbogen oder einer Kulturbefragung, ein Vorher/Nachher-Foto, ein (freigegebenes) Zitat als Screenshot-Grafik. Ein passendes Artefakt schlägt jedes Indexbild, weil es die Geschichte belegt statt sie zu bebildern.
+
+Regeln für Artefakt-Bilder:
+- Anonymisierung nach dem Protokoll aus Phase 3: Namen, Firmenlogos, Gesichter ohne Freigabe und identifizierende Metadaten werden geschwärzt oder entfernt, die tragenden Details (Zahl, Datum, Kernaussage) bleiben sichtbar, gern per Markierung hervorgehoben.
+- Nie ein Artefakt nachbauen oder inszenieren, das es so nicht gab. Ein nachgestelltes „echtes" Dokument ist eine erfundene Zahl in Bildform.
+- Kundenartefakte nur mit Christophs Bestätigung, dass die Verwendung gegenüber dem Kunden vertretbar oder freigegeben ist. Im Zweifel Indexbild.
+- Liegt ein Artefakt vor, wird es als Kandidat 1 präsentiert, dazu 1–2 Indexbilder als Alternative. Die finale Wahl bleibt beim Menschen.
+
+Liegt kein Artefakt vor: weiter mit Stufe 2.
+
+#### Stufe 2 der Bildwahl: Bildindex (Standard, wenn kein Artefakt vorliegt)
 
 Die Bildkandidaten kommen aus dem getaggten Bildindex in Airtable, nicht aus Ad-hoc-Suchen oder Stockfotos.
 
 **Datenquelle:**
 - Base „ChangeXperten" (`appb7eOfe2Au3Lp40`)
 - Tabelle „LinkedIn-Bilder" (`tblt8MncEzwvhIQ8C`)
-- Zielfeld am Content-Eintrag: „Bildvorschläge LinkedIn" (`fldBQwjgyFZw3SNwr`) in Tabelle „Content-Research" (`tblrCjOdKhI4YCPPR`)
+- Zielfeld am Content-Eintrag: „Bildvorschläge LinkedIn" (`fldGzdiY66nuC4ojk`) in Tabelle „LinkedIn-Content" (`tblNfTJDJjCia6a1I`)
 
 **Vorgehen:**
 
@@ -269,12 +304,12 @@ Die Bildkandidaten kommen aus dem getaggten Bildindex in Airtable, nicht aus Ad-
    - **Bildgruppe:** Nie zwei Kandidaten aus derselben Bildgruppe vorschlagen. Bildgruppen, deren Bilder zuletzt genutzt wurden (hoher Nutzungszähler oder kürzliches „Zuletzt genutzt"-Datum in der Gruppe), nachrangig behandeln.
    - **Nutzungszähler:** Bei vergleichbarer inhaltlicher Passung gewinnt das Bild mit dem niedrigeren Zähler. Bilder mit Zähler 0 bevorzugen.
    - **Stimmung vor Motiv:** Ein Bild, dessen Stimmung zum Ton des Posts passt (z. B. nachdenklich bei Leadership Thought, energetisch bei Company Wins), schlägt ein thematisch näheres Bild mit falscher Stimmung.
-4. **2–3 Kandidaten verlinken:** Die Record-IDs der Kandidaten in das Feld „Bildvorschläge LinkedIn" des zugehörigen Content-Research-Eintrags schreiben (`update_records_for_table`).
+4. **2–3 Kandidaten verlinken:** Die Record-IDs der Kandidaten in das Feld „Bildvorschläge LinkedIn" des zugehörigen LinkedIn-Content-Eintrags schreiben (`update_records_for_table`).
 5. **Kandidaten präsentieren:** Christoph/Ali die Kandidaten im Chat zeigen: Dateiname plus je ein Satz, warum das Bild passt (Bezug auf Stimmung/Thema). Keine Vorentscheidung treffen, die finale Auswahl liegt beim Menschen.
 6. **Kein Treffer im Index:** Wenn nach zwei Suchdurchgängen kein inhaltlich vertretbarer Kandidat existiert, das offen sagen und zwei Optionen anbieten: (a) Post ohne spezifisches Bild an Ali zur manuellen Bildwahl übergeben, (b) neutralen Kandidaten aus einer neutralen Kategorie vorschlagen. Nie ein unpassendes Bild schönreden.
 
 **Was die Routine NICHT tut:**
-- Den Nutzungszähler erhöhen. Das macht ausschließlich das Make-Szenario „Content-Publishing" (ID 9521520) beim tatsächlichen Posten: gewähltes Bild → Nutzungszähler +1. So zählt nur, was wirklich live ging.
+- Den Nutzungszähler erhöhen. Das macht ausschließlich die LinkedIn-Feedback-Routine, wenn sie „Finaler Post" schreibt: gewähltes Bild → Nutzungszähler +1, nicht gewählte Kandidaten werden wieder freigegeben. So verbraucht ein Vorschlag allein noch kein Bild.
 - Das Feld „Zuletzt genutzt" anfassen (aktualisiert sich automatisch bei Änderung des Nutzungszählers).
 
 ### Phase 5 – Finaler Schliff
@@ -292,6 +327,10 @@ Rufe den `/humanizer`-Skill auf, um KI-typische Muster zu entfernen (Füllwörte
 ### Phase 6 – Qualitätscheck
 
 Vor Abgabe an Christoph prüfen:
+- [ ] **Lackmustest am fertigen Text bestanden:** Hätte diesen Post nur jemand schreiben können, der dabei war? Wenn nein, zurück in Phase 1, nicht glätten
+- [ ] Der Post hängt an genau einem konkreten Vorfall (Datum, Zahl oder wörtlicher Satz vorhanden); Ausnahme: rein recherchebasierte Posts aus der Ausfall-Regel, dort trägt die Wahrnehmungslücke oder Hochrechnung die Konkretheit
+- [ ] Echte Zahlen aus Vorfällen stehen krumm und exakt im Text, nicht gerundet; keine Zahl wurde krumm erfunden
+- [ ] Kundenbezug nach Anonymisierungs-Protokoll behandelt: Name/Firma raus, Branche + Größenordnung + exakte Zahl + Zeitraum drin, kein Weichspülen zu "ein Kunde von mir"
 - [ ] Eine klare innere Leser-Lage und eine dominante Leser-Emotion liegen dem Post zugrunde (aus Phase 1)
 - [ ] Resonanz- oder Reibungszeile ist im Haupttext vorhanden, nicht nur in der Schlussfrage (Kommentar-Probe: je ein zustimmender und ein widersprechender Kommentar sind vorstellbar)
 - [ ] Jede Kennzahl trägt eine spürbare Konsequenz (Zahl mit Stich), keine reine Aufzählung
@@ -317,7 +356,11 @@ Vor Abgabe an Christoph prüfen:
 - [ ] Abschluss hat minimale Interaktionshürde (Binärfrage, Ziffer oder kurze offene Frage), keine Geschichte-erzähl-Aufforderung, keine Doppelfrage
 - [ ] Zuspitzungs-Archetyp wiederholt nicht den des vorherigen recherchebasierten Posts; Berater-Selbstkritik, Reibungs-Wortprägung und Vorlege-CTA nicht in jedem Post
 - [ ] Format ist Text + Bild, außer Carousel wurde ausdrücklich gewünscht oder als Ausnahme begründet (siehe Phase 4)
-- [ ] 2–3 Bildkandidaten aus dem Airtable-Bildindex verlinkt (Feld „Bildvorschläge LinkedIn"), keine zwei aus derselben Bildgruppe, Nutzungszähler berücksichtigt
+- [ ] Bildwahl zweistufig durchlaufen: Artefakt-Bild geprüft (Stufe 1); nur wenn keines vorliegt oder es nicht vertretbar ist, 2–3 Bildkandidaten aus dem Airtable-Bildindex verlinkt (Feld „Bildvorschläge LinkedIn"), keine zwei aus derselben Bildgruppe, Nutzungszähler berücksichtigt
+- [ ] Artefakt-Bild (falls gewählt) ist echt, anonymisiert und von Christoph als kundenvertretbar bestätigt
+- [ ] Alternativ-Struktur nur mit Deckung: Übersetzung enthält eine selbstinklusive Zeile; Lager A gegen Lager B höchstens einmal im Monat, beide Lager in Bestform, Christophs Position liegt für den ersten Kommentar bereit
+- [ ] Serien-Posts: Ein-Satz-Rückbezug am Anfang, Fall ist real offen, höchstens eine offene Serie gleichzeitig
+- [ ] Verkaufsnaher CTA (falls zulässig) steht als abgetrenntes PS nach der Abschlussfrage, nicht im Haupttext
 - [ ] Abschluss passt zur Kategorie (offene Frage vs. direktiver CTA)
 - [ ] Kennzahl vorhanden, wo laut Checkliste Pflicht
 - [ ] Genau eine Leitquelle/Kernaussage trägt den Post, keine zwei Studien zu einer Mischaussage verschmolzen
@@ -334,6 +377,8 @@ Vor Abgabe an Christoph prüfen:
 - Keine Reshares ohne eigenen substanziellen Kommentar
 - Keine erfundenen Zahlen oder Studien – Unsicherheiten kennzeichnen
 - Kein reiner Verkaufs-/Werbe-Ton außerhalb der Kategorie Offer Highlight
+- **Kein Keyword-DM-CTA unter redaktionellen Posts** („Schreib mir INKASSO-Stil"). Geprüft und verworfen am 17.08.2026 (Florian-Reich-Analyse): funktioniert bei transaktionalen Angeboten, kippt ein vertrauensbasiertes Beratungsprofil aber in Richtung Coaching-Funnel und unterläuft die 25%-Verkaufsgrenze. Direktive CTAs bleiben auf die dafür zugelassenen Kategorien beschränkt und stehen dort im PS.
+- Keine nachgebauten oder inszenierten Artefakte als Bildmaterial
 
 ## Referenzdateien im Überblick
 
@@ -347,6 +392,19 @@ Vor Abgabe an Christoph prüfen:
 
 
 ## Änderungsverlauf
+
+**17.08.2026** (nach der Muster-Analyse der Florian-Reich-Posts / paywise, sechs Posts mit Bildern ausgewertet):
+
+- Kern-Diagnose übernommen: Die analysierten Posts sind spitz, weil sie an datierbaren Vorfällen hängen (Gerichtsbrief, 27,53-€-Rechnung), nicht an Themen. Daraus das **Vorfall-vor-Thema-Prinzip**: Phase 0 prüft zuerst den Vorfall-Speicher (Airtable-Tabelle „Vorfälle") und matcht Studien auf Vorfälle statt umgekehrt; Phase 1 fragt zuerst „Was ist passiert?", dann „Was heißt das?".
+- **Lackmustest** eingeführt („Hätte diesen Post nur jemand schreiben können, der dabei war?"), Pflicht in Phase 1 und Phase 6.
+- **Krumme Zahlen als Präzisions-Regel:** echte Werte exakt statt gerundet, nie krumm erfinden.
+- **Artefakt-Frage** als Pflichtteil des Interviews und **zweistufige Bildwahl** in Phase 4: echtes anonymisiertes Artefakt (Beweis) vor Bildindex (Illustration); nachgebaute Artefakte ausdrücklich verboten.
+- **Anonymisierungs-Protokoll** in Phase 3: Name/Firma raus, Branche + Größenordnung + exakte Zahl + Zeitraum bleiben, kein Weichspülen; Grenzfall-Regel bei Identifizierbarkeit.
+- Zwei **Alternativ-Strukturen** zugelassen: die Übersetzung (Floskel-Dekodierung mit ❌-Bullets und Selbstinklusions-Pflicht) und Lager A gegen Lager B (ausgelagerte Kontroverse, dokumentierte Ausnahme zur Absicherungs-Absatz-Regel, max. einmal pro Monat).
+- **Serien-Mechanik** für real offene Fälle („Ich halte euch auf dem Laufenden") mit Rückbezugs- und Schließ-Regeln; **PS-Trennung** für verkaufsnahe CTAs.
+- Bewusst NICHT übernommen: der Keyword-DM-CTA unter redaktionellen Posts (Begründung im Abschnitt „Was bewusst NICHT gemacht wird").
+- `references/hook-frameworks.md`: Frameworks N (Datums-Kontrast), O (Lager A gegen Lager B), P (Die Übersetzung) ergänzt, Kategorie-Tabelle erweitert.
+- `references/interview-fragen.md`: Fragenkatalog auf Vorfall-zuerst umgebaut, Artefakt-Block und Lackmustest ergänzt.
 
 **04.08.2026** (nach Christophs Formatierungs-Redigat an ID 135):
 

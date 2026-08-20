@@ -53,6 +53,8 @@ Drei Säulen mit je einer Übersichtsseite und den darunterliegenden Leistungen.
 
 Weitere Belegseiten, die als Vertiefung taugen: Referenzen https://www.changexperten.com/referenzen · Auszeichnung TOP Berater 2026 https://www.changexperten.com/beste-change-management-beratung-deutschlands · Team https://www.changexperten.com/ueber-uns · Blog https://www.changexperten.com/blog
 
+**Weiterlesen im Blog (Standard-CTA der Regel-Ausgabe).** Wie eine Zeitungskolumne verweist der Impuls redaktionell auf den Blog: entweder auf den Blogartikel zur selben Studie („die lange Fassung", Airtable-Feld „Finaler Blogartikel") oder, für weitere Themen, auf die Blog-Übersicht https://www.changexperten.com/blog. Immer als Satz im Fluss oder kurze Schlusszeile, nie als Button-Block, nach der Pointe, zählt zum Link-Limit. Details: Abschnitt „Weiterlesen im Blog" im Hauptskill.
+
 **Regel für Leistungslinks.** Eine Leistungsseite wird nur verlinkt, wenn der Impuls sie inhaltlich gerade erzeugt hat, und immer als Nebensatz im Fluss („so arbeiten wir in der Konfliktmediation"), nie als eigener Absatz mit Button. Sonst kippt die Ausgabe vom Impuls in die Werbung, und das Academy-Versprechen ist verletzt. Maximal ein Leistungslink pro Ausgabe. Das Link-Limit aus dem Deliverability-Abschnitt (ca. zwei Links in einer kurzen Ausgabe) gilt trotzdem und schlägt diese Regel, wenn schon zwei Links stehen.
 
 ## Stufe 3 – Erstgespräch

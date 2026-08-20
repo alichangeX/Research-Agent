@@ -115,6 +115,40 @@ Dieser Hook ist Pflicht als mindestens eine der 3–5 Varianten in Phase 2, weil
 - Nur für recherchebasierte Kategorien (Leadership Thought, Trends & Analytics, Actionable Guide, Personal Hot Take). Bei Personal Milestone und Company Wins zerstört ein Verbots-Hook die Nahbarkeit, dort ist er ausgeschlossen.
 - Nicht in zwei aufeinanderfolgenden Posts (Archetypen-Rotation, siehe SKILL.md Phase 3).
 
+## N. Datums-Kontrast (Zwei Zeitpunkte, eine Absurdität)
+
+**Prinzip:** Zwei datierte Ereignisse untereinander, deren Abstand oder Widerspruch die ganze Geschichte erzählt. Verwandt mit F (Zeitanker), aber F verankert einen Punkt, N spannt zwei Punkte gegeneinander. Die Spannung liegt in der Lücke, nicht in einer Wertung; der Hook wertet nicht, er datiert.
+
+**Beispiel (Muster):** "Dezember 2025: Antrag gestellt. Juli 2026: die erste Antwort."
+
+**Beispiel (Change-Kontext):** "Januar: Kickoff mit 120 Leuten, Buffet, Vision an der Wand. September: Die erste Frage im Führungskreis lautet, wie das Projekt eigentlich heißt."
+
+**Voraussetzung:** Beide Zeitpunkte müssen echt und aus einem realen Vorfall sein (Vorfall-vor-Thema-Prinzip, SKILL.md Phase 0/1). Ein konstruierter Kontrast aus zwei zusammengesuchten Ereignissen ist ausgeschlossen. Funktioniert am stärksten mit einem Artefakt als Bild, das einen der beiden Zeitpunkte belegt.
+
+## O. Lager A gegen Lager B (Die ausgelagerte Kontroverse)
+
+**Prinzip:** Der Hook stellt eine echte Streitfrage und kündigt zwei Lager an, ohne dass Christoph Position bezieht. Die Kontroverse wird an die Leser ausgelagert; der Kommentarbereich trägt die Debatte aus. In der Analyse-Vorlage erzeugte dieses Format das beste Kommentar-zu-Reichweite-Verhältnis aller sechs Posts.
+
+**Beispiel (Muster):** "Ist es eigentlich respektlos, nach 30 Tagen direkt ein Inkasso zu beauftragen?"
+
+**Beispiel (Change-Kontext):** "Ist es eigentlich fahrlässig, ein Change-Projekt zu starten, bevor der Betriebsrat am Tisch sitzt?"
+
+**Regeln:**
+- Gehört zwingend zur gleichnamigen Alternativ-Struktur in SKILL.md Phase 3 (beide Lager in Bestform, Binärfrage als Abschluss, Christophs Position liegt für den ersten Kommentar oder die Diskussion bereit).
+- Die Streitfrage muss eine sein, bei der sich kompetente Führungskräfte real uneinig sind (Reibungs-Test). Eine Frage mit offensichtlicher Antwort ist Engagement-Bait und fällt raus.
+- Höchstens einmal pro Monat (siehe SKILL.md Phase 3), sonst wirkt das Profil meinungslos.
+- Die Frage darf mit "Ist es eigentlich…" beginnen; das ist die zugelassene Erweiterung der Fragen-Hook-Ausnahme unten, weil die Konkretheit hier aus der Situation kommt.
+
+## P. Die Übersetzung (Floskel-Dekodierung)
+
+**Prinzip:** Eine wörtlich zitierte Floskel aus dem Alltag der Zielgruppe als Hook, gefolgt von der Ankündigung, was sie wirklich bedeutet. Der Hook lebt von sofortiger Wiedererkennung; die Dekodierung folgt im Text (Struktur: siehe Alternativ-Struktur "Die Übersetzung" in SKILL.md Phase 3).
+
+**Beispiel (Muster):** "'Die Rechnung liegt schon in der Buchhaltung zur finalen Freigabe.' Was der Kunde mit 47 Tagen Verzug eigentlich meint:"
+
+**Beispiel (Change-Kontext):** "'Wir nehmen alle mit.' Was dieser Satz in einem Change-Projekt eigentlich heißt:"
+
+**Voraussetzung:** Die Floskel muss eine sein, die die Zielgruppe selbst ständig hört oder sagt, und die Übersetzungen müssen aus echter Projekterfahrung stammen. Selbstinklusions-Pflicht: mindestens eine Übersetzung trifft die eigene Zunft. Verwandt mit I (Zitat kalt), aber I öffnet eine individuelle Szene, P dekodiert ein kollektives Muster.
+
 ---
 
 ## Kernprinzipien für alle Hooks
@@ -169,14 +203,14 @@ Keine starre Regel, aber eine bewährte Zuordnung als Startpunkt:
 
 | Kategorie | Bevorzugte Frameworks |
 |---|---|
-| Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung, das Verbot |
+| Actionable Guide | Contrarian Opinion, "A zu C ohne B", Hochrechnung, das Verbot, die Übersetzung |
 | Offer Highlight | Brutal Social Proof, "Day 1"/Zeitanker |
-| Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt, invertierte Selbstauskunft |
-| Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof, Neugier-Lücke ("Zwei Dinge aus dem Plan sind nicht passiert") |
-| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail, invertierte Selbstauskunft, das Verbot |
-| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion, invertierte Selbstauskunft, das Verbot, offener Dissens gegen die zitierte Quelle ("Ich glaube diese Zahlen nicht. Und ich sage auch, warum.") |
-| Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz, unerklärtes Detail |
-| Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz, das Verbot |
+| Client Success Story | "A zu C ohne B", Brutal Social Proof, Zitat kalt, invertierte Selbstauskunft, Datums-Kontrast |
+| Company Wins | "Day 1"/Zeitanker, dezente Brutal Social Proof, Neugier-Lücke ("Zwei Dinge aus dem Plan sind nicht passiert"), Datums-Kontrast (selbstironisch, z. B. Plan gegen Realität) |
+| Leadership Thought | Kognitive Dissonanz, Contrarian Opinion, Voyeurismus, Zitat kalt, unerklärtes Detail, invertierte Selbstauskunft, das Verbot, Lager A gegen Lager B, die Übersetzung |
+| Trends & Analytics | Wahrnehmungslücke, Hochrechnung, Brutal Social Proof, Contrarian Opinion, invertierte Selbstauskunft, das Verbot, Datums-Kontrast, offener Dissens gegen die zitierte Quelle ("Ich glaube diese Zahlen nicht. Und ich sage auch, warum.") |
+| Personal Milestone | Voyeurismus-Bias, Kognitive Dissonanz, unerklärtes Detail, Datums-Kontrast |
+| Personal Hot Take | Contrarian Opinion, Kognitive Dissonanz, das Verbot, Lager A gegen Lager B, die Übersetzung |
 
 Bei studienbasierten Posts (Trends & Analytics, oft auch Leadership Thought) sind Wahrnehmungslücke (H) und Hochrechnung (J) die naheliegenden Startpunkte, weil sie eine Zahl in Spannung oder in Betroffenheit übersetzen, statt sie zu referieren.
 

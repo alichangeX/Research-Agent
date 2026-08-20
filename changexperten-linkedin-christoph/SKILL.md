@@ -187,6 +187,24 @@ Regeln:
 
 Struktur: **Hook → Szene → Wendung → Insight → Transfer → Abschluss**
 
+**Tonalität (18.08.2026, aus der Stil-Analyse der Florian-Reich-Posts). Sechs Ton-Prinzipien, die für alle Varianten gelten:**
+
+Der Referenz-Ghostwriter erreicht Autorität in einer ungeliebten Branche über Haltung statt Lautstärke. Übertragbar auf Christophs Beratungsprofil sind sechs Werkzeuge, ausdrücklich OHNE den Stakkato-Rhythmus und das Nicht-X-sondern-Y-Muster der Vorlage (beide bleiben verboten, siehe Fragment- und Nullregel unten):
+
+1. **Gelassenheit als Grundton.** Reibung ja, Empörung nie. Wo ein Post sich über etwas aufregen könnte (ein Reflex der Branche, ein absurder Prozess, eine unfaire Zuschreibung), gewinnt die ruhige, souveräne Einordnung gegen die Empörung. Wer sich nicht aufregt, signalisiert, dass er die Lage im Griff hat. Praktisch heißt das: Ironie über Understatement und Anführungszeichen („die vielbeschworene Fehlerkultur", „das obligatorische Werte-Poster") statt über Ausrufezeichen oder Großbuchstaben. Höchstens ein Ausrufezeichen pro Post, im Zweifel keins. Der Spott trifft immer eine Praktik oder Christoph selbst, nie eine Personengruppe (deckt sich mit der Gegner-Regel unten).
+
+2. **Fachbegriff-Übersetzungs-Duett.** Change-Fachsprache wird nicht vermieden, sondern bewusst gesetzt und im Folgesatz in Alltagssprache aufgelöst. Der Fachbegriff beweist die Kompetenz, die Übersetzung stellt die Anschlussfähigkeit her. Muster: „Wir haben an der Ambidextrie gearbeitet. Also an der Fähigkeit, das Tagesgeschäft zu betreiben und gleichzeitig das Neue aufzubauen, ohne dass eins das andere auffrisst." Das ist die Fließtext-Variante der Klammer-Erklärungen, die Christoph ohnehin nutzt. Pro Post ein bis zwei solcher Duette, nicht mehr, sonst wird der Text ein Glossar.
+
+3. **Ein Wissens-Nugget pro Post (Pflicht).** Jeder Post enthält mindestens ein konkretes, zitierfähiges Stück Fachwissen, das der Leser mitnimmt und weitererzählen kann (ein Mechanismus, eine Faustregel, eine überraschende Ursache). Der Leser muss messbar schlauer aus dem Post herausgehen, unabhängig davon, ob er kommentiert. Das Nugget ist nicht dasselbe wie die Handlungsempfehlung (die bleibt Pflicht laut Empfehlungs-Regel): Das Nugget erklärt, warum etwas so ist, die Empfehlung sagt, was zu tun ist. Ein Post ohne Nugget ist Meinung ohne Substanz.
+
+4. **Einwand-Konter-Muster (dialogische Alternative zur Konzessions-Regel).** Ein erwartbarer Leser-Einwand wird als kurzer innerer Dialog vorweggenommen und knapp gekontert: „Jetzt könnte man sagen: Dann macht doch einfach mehr Workshops. Machen wir aber bewusst nicht, weil…". Das ist eine gleichwertige Schwester der Konzessions-Regel: Wo die Konzession das Gegenbeispiel in den Satz einbaut, spielt das Einwand-Konter-Muster es als Mini-Dialog aus. Beide erfüllen dieselbe Funktion (den stärksten Widerspruch entkräften, ohne die These zu entschärfen); pro Post wird eine der beiden Formen genutzt, nicht beide, und der Konter bleibt kurz (ein bis zwei Sätze), sonst wird aus dem Dialog eine Rechtfertigung.
+
+5. **Haltung als Pointe vor der Schlussfrage.** Kurz vor dem Abschluss steht ein Satz, der einen Wert vorführt statt ihn zu behaupten. Nicht „Transparenz ist uns wichtig", sondern die Handlung, aus der die Transparenz spricht („Wir lassen die Kritik stehen und antworten mit Zahlen darauf."). Gezeigte Haltung ist glaubwürdig, behauptete Haltung ist ein Werte-Poster. Diese Zeile ersetzt keine Handlungsempfehlung, sie steht neben ihr und gibt dem Post seinen Ton-Schlusspunkt, bevor die Interaktionsfrage kommt.
+
+6. **Selbstgespräch als Mikro-Gliederung (optional, dosiert).** Kurze rhetorische Selbst-Fragen als Übergänge („Was dann passierte?", „Der Grund?") sind erlaubt, um Tempo und Leserführung zu erzeugen, aber höchstens zwei pro Post. Sie sind das einzige Element, das der Vorlage rhythmisch nahekommt, und kippen bei Überdosis sofort in den verbotenen Stakkato-Ton. Im Zweifel weglassen und den Übergang als vollständigen Satz schreiben.
+
+Diese sechs Prinzipien sind Ton, keine Struktur: Sie gelten zusätzlich zur gewählten Struktur (Standard oder Alternativ) und ändern nichts an den Fragment-, Null- und Rhythmus-Regeln weiter unten, die unverändert Vorrang haben.
+
 **Zwei zugelassene Alternativ-Strukturen (17.08.2026, aus der Florian-Reich-Analyse):**
 
 - **Die Übersetzung:** Eine Floskel oder Standardaussage aus dem Alltag der Zielgruppe wird dekodiert. Aufbau: Floskel als Hook (wörtlich, in Anführungszeichen) → „Was das eigentlich heißt:" → 4–6 Übersetzungen mit ❌ als Bullet → Wendung/Insight → Transfer → Abschluss. Beispiel-Rohstoff: „Wir nehmen alle mit", „Das Team steht voll dahinter", „Wir sind da schon dran". Die Übersetzungen müssen aus echter Projekterfahrung stammen und mindestens eine davon selbstironisch die eigene Zunft treffen (Selbstinklusion), sonst kippt das Format in Zynismus gegen die Leser. Dies ist die einzige Struktur, in der ❌-Bullets erwünscht sind; die Regel „👉 sparsam" gilt hier für ❌ entsprechend (nie mehr als 6).
@@ -312,6 +330,17 @@ Die Bildkandidaten kommen aus dem getaggten Bildindex in Airtable, nicht aus Ad-
 - Den Nutzungszähler erhöhen. Das macht ausschließlich das Make-Szenario „Content-Publishing" (ID 9521520) beim tatsächlichen Posten: gewähltes Bild → Nutzungszähler +1. So zählt nur, was wirklich live ging.
 - Das Feld „Zuletzt genutzt" anfassen (aktualisiert sich automatisch bei Änderung des Nutzungszählers).
 
+#### Bild-Persona: Wiedererkennung im Feed (18.08.2026, aus der Florian-Reich-Analyse)
+
+Die Vorlage erzeugt Feed-Wiedererkennung wie ein Logo: dieselbe Person, konstante Optik (Kleidung, Bildlook), einheitlicher Text-Overlay-Stil über alle Posts. Ein Leser erkennt den Absender, bevor er den Namen liest. Das ist bei changeXperten heute nicht der Fall, weil die Indexbilder in Stil und Motiv gemischt sind.
+
+Dies ist kein Einzelpost-Kriterium, sondern eine Empfehlung an die Bild-Ebene insgesamt (Foto-Shooting und Index-Pflege, nicht der einzelne Post):
+- **Wiederkehrende Christoph-Optik:** Ein Set an Fotos mit konsistenter Bildsprache (Kleidungslinie, Hintergrund-Anmutung, Lichtstimmung), sodass persönliche Posts als „von Christoph" erkennbar werden. Beim nächsten Shooting gezielt eine solche Serie aufbauen und im Index als eigene Bildgruppe taggen.
+- **Einheitlicher Overlay-Stil:** Wenn Text-Overlays auf Bildern genutzt werden (z. B. Datums-Kontrast, Zahlen), ein festes Muster verwenden (gleiche Schrift, gleiche Balken-/Farblogik im changeXperten-CI). Details gehören in den Skill `changexperten-brand`, hier nur der Verweis, dass LinkedIn diesen Stil konsistent nutzt.
+- **Grenze:** Wiedererkennung heißt nicht Monotonie. Artefakt-Bilder (Stufe 1) und thematische Indexbilder bleiben möglich; die Persona betrifft die persönlichen Foto-Posts, nicht jeden Post. Bei Personal Milestone und Company Wins ist die konsistente Christoph-Optik am wertvollsten.
+
+Für den einzelnen Post bedeutet das nur: Wo ein persönliches Foto passt, eines aus der konsistenten Christoph-Bildgruppe bevorzugen, sofern vorhanden.
+
 ### Phase 5 – Finaler Schliff
 
 Rufe den `/humanizer`-Skill auf, um KI-typische Muster zu entfernen (Füllwörter, vorhersehbarer Satzrhythmus, hohle Übergänge).
@@ -347,6 +376,12 @@ Vor Abgabe an Christoph prüfen:
 - [ ] Kernaussage-Abgleich nach der Hook-Wahl durchgeführt, Post trägt genau eine These
 - [ ] Keine abgehängten Satzfragmente (verbloser Nachklapp), höchstens ein bewusstes Fragment im ganzen Post, nie zwei in Folge
 - [ ] **Null** Negativ-Verstärkungen ("Nicht X. Sondern Y." und Zweisatz-Varianten), Suchverfahren aus Phase 3 nachweislich durchgeführt
+- [ ] **Ton:** Grundton gelassen, keine Empörung; höchstens ein Ausrufezeichen; Ironie über Understatement/Anführungszeichen, nicht über Großschreibung
+- [ ] **Ton:** mindestens ein zitierfähiges Wissens-Nugget im Post (erklärt eine Ursache/Mechanik, nicht identisch mit der Handlungsempfehlung)
+- [ ] **Ton:** höchstens ein Fachbegriff-Übersetzungs-Duett pro Gedanke, maximal zwei im Post; Fachbegriff jeweils im Folgesatz aufgelöst
+- [ ] **Ton:** entweder Konzession ODER Einwand-Konter-Muster genutzt (nicht beide für denselben Einwand); Konter bleibt kurz
+- [ ] **Ton:** eine Haltungs-Zeile vor der Schlussfrage führt einen Wert als Handlung vor, statt ihn zu behaupten
+- [ ] **Ton:** höchstens zwei rhetorische Selbst-Fragen als Übergänge, kein Stakkato-Takt (greift in die Rhythmus-Untergrenze unten)
 - [ ] Absolute Sachbehauptungen tragen Qualifizierer oder Konzession (Konzessions-Regel), die These selbst bleibt einseitig, kein Absicherungs-Absatz
 - [ ] Recherchebasierte Posts: ein benannter Gegner (Praktik/Methode, nie Person/Gruppe), Studienbeleg steht nach der These mit Brückensatz, nicht als Aufhänger
 - [ ] Praxisbeleg ist Szene oder Zitat, keine "erlebe ich immer wieder"-Floskel; kein ungefüllter `[PLATZHALTER SZENE]` im finalen Text
@@ -392,6 +427,13 @@ Vor Abgabe an Christoph prüfen:
 
 
 ## Änderungsverlauf
+
+**18.08.2026** (Stil- und Tonalitäts-Analyse der Florian-Reich-Posts, Vertiefung zur Muster-Analyse vom 17.08.):
+
+- Neuer Block **Tonalität** in Phase 3 mit sechs Ton-Prinzipien: Gelassenheit als Grundton, Fachbegriff-Übersetzungs-Duett, ein Wissens-Nugget pro Post (Pflicht), Einwand-Konter-Muster als Schwester der Konzessions-Regel, Haltung als Pointe vor der Schlussfrage, dosiertes Selbstgespräch als Mikro-Gliederung.
+- Ausdrücklich NICHT übernommen: der Stakkato-Rhythmus und das Nicht-X-sondern-Y-Muster der Vorlage. Beide bleiben verboten (Fragment- und Nullregel); im Änderungsverlauf dokumentiert, weil sie in der Vorlage prägend sind und die Nicht-Übernahme eine bewusste Entscheidung ist (Christophs Redigat „nicht so zerhackt").
+- Sieben Ton-Prüfpunkte im Qualitätscheck (Phase 6) ergänzt.
+- **Bild-Persona** in Phase 4: Empfehlung zur Feed-Wiedererkennung über konsistente Christoph-Optik und einheitlichen Overlay-Stil (betrifft Foto-Shooting und Index-Pflege, Overlay-Details liegen im Skill `changexperten-brand`).
 
 **17.08.2026** (nach der Muster-Analyse der Florian-Reich-Posts / paywise, sechs Posts mit Bildern ausgewertet):
 

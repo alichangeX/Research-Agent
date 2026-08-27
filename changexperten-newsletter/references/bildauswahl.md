@@ -57,7 +57,7 @@ Die Grafiken sind für Folien gebaut, nicht für Postfächer. Vor dem Einbinden:
 
 ## Airtable-Feldzuordnung
 
-Kommt der Auftrag aus der Content-Pipeline (Tabelle Content-Research, `tblrCjOdKhI4YCPPR`), werden die bestehenden Bildfelder mitgenutzt:
+Kommt der Auftrag aus der Content-Pipeline (Tabelle Blog & Newsletter, `tblzTKBLsewsvoCis`), werden die bestehenden Bildfelder mitgenutzt:
 
 | Zweck | Feld |
 |---|---|
@@ -71,7 +71,7 @@ Trägt dieselbe Zeile auch einen Blogartikel, gelten diese Felder primär für d
 Abbildung: [Dateiname oder Vorlagenname] | Position: [nach Absatz X] | Alt-Text: [...] | Quelle: Blog-Bilder / Grafik-Vorlagen
 ```
 
-**Offener Punkt für Christoph:** Sauberer wäre ein eigenes Feld „Bildvorschläge Newsletter" in Content-Research plus ein Zähler „Nutzungszähler Newsletter" in Blog-Bilder. Solange die nicht existieren, gilt die Dokumentation im Textfeld oben.
+**Offener Punkt für Christoph:** Sauberer wäre ein eigenes Feld „Bildvorschläge Newsletter" in Blog & Newsletter plus ein Zähler „Nutzungszähler Newsletter" in Blog-Bilder. Solange die nicht existieren, gilt die Dokumentation im Textfeld oben.
 
 ## Checkliste Abbildung
 

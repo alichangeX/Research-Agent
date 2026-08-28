@@ -1,6 +1,6 @@
 # Bilder und Grafiken für Blogartikel
 
-Diese Datei ist die einzige Quelle für alles Visuelle am Blogartikel. Sie gilt gleichermaßen für Routine 2 (Bildplan und Vorschläge), Routine 3 (finale Auswahl und Buchung) und für manuelle Einzelaufträge im Chat.
+Diese Datei ist die einzige Quelle für alles Visuelle am Blogartikel. Sie gilt gleichermaßen für den täglichen Produktionslauf „Content D" (Bildplan, Unsplash-Fotos, Grafik-Aufträge), die tägliche Feedback-Runde „Content C" (finale Auswahl, Abgleich gegen den finalen Text, Zähler-Buchung beim Livegang) und für manuelle Einzelaufträge im Chat.
 
 ## 1. Zugriffsgrenze – warum die Architektur so aussieht
 
@@ -17,17 +17,17 @@ Solange eine Strecke nicht läuft, arbeitet die Routine mit dem, was in Airtable
 
 ## 2. Datenquellen und Feld-IDs
 
-Base „changeXperten Content": `appb7eOfe2Au3Lp40`
+Base „ChangeXperten": `appb7eOfe2Au3Lp40`
 
 | Zweck | Tabelle / Feld | ID |
 |---|---|---|
-| Bildbestand Blog | Tabelle `Blog-Bilder` | `tblE7N7W8Z6frJwS1` |
-| Vorlagenkatalog | Tabelle `Grafik-Vorlagen` | `tbl6nRJ5CfnY9iBNV` |
-| Artikelzeile | Tabelle `Content-Research` | `tblrCjOdKhI4YCPPR` |
-| Bildplan (Slot-Tabelle) | Feld „Bildplan" | `fldKIrmIAViK7QmO7` |
-| Bildkandidaten | Feld „Bildvorschläge Blog" | `fldp2VKq8jzi4PjBT` |
-| Befüllungsauftrag | Feld „Grafik-Auftrag" | `fld7SEpAMzRajehKQ` |
-| Gewählte Vorlage | Feld „Grafik-Vorlage" (Link) | im Datensatz sichtbar |
+| Bildbestand Blog | Tabelle `07 Blog-Bilder` | `tblE7N7W8Z6frJwS1` |
+| Vorlagenkatalog | Tabelle `08 Grafik-Vorlagen` | `tbl6nRJ5CfnY9iBNV` |
+| Artikelzeile | Tabelle `04 Blog` | `tblzTKBLsewsvoCis` |
+| Bildplan (Slot-Tabelle) | Feld „Blog-Bildplan" | `fldxWuw7JZ8iOAiFc` |
+| Bildkandidaten | Feld „Bildvorschläge Blog" | `fld3Iccjz37FkGcnV` |
+| Befüllungsauftrag | Feld „Grafik-Auftrag" | `fldohribEPD9sdqXD` |
+| Gewählte Vorlage | Feld „Grafik-Vorlagen" (Link) | `fldEbkzqGov1ouU9n` |
 
 ## 3. Drei Ebenen pro Artikel
 
@@ -106,7 +106,7 @@ Die Grafik entsteht **nicht** durch freies Gestalten, sondern durch Auswahl und 
 
 ## 7. Grafik-Auftrag – Format
 
-Routine 2 schreibt den Auftrag in das Feld „Grafik-Auftrag", exakt nach der „Befüllungsstruktur" der gewählten Vorlage und **innerhalb der dort genannten Zeichengrenzen**. Der Auftrag ist so vollständig, dass die Befüllung ohne Rückfrage möglich ist – egal ob durch Claude mit hochgeladener PPTX oder durch Ali in PowerPoint.
+Der Produktionslauf schreibt den Auftrag in das Feld „Grafik-Auftrag", exakt nach der „Befüllungsstruktur" der gewählten Vorlage und **innerhalb der dort genannten Zeichengrenzen**. Der Auftrag ist so vollständig, dass die Befüllung ohne Rückfrage möglich ist – egal ob durch Claude mit hochgeladener PPTX oder durch Ali in PowerPoint.
 
 ```
 VORLAGE: Six circle segments (recbpIz8XVctSKK0L)
@@ -152,4 +152,6 @@ Weiter gilt:
 
 ## 10. Nach der Veröffentlichung
 
-Pro genutztem Bild in `Blog-Bilder`: `Nutzungszähler Blog` um 1 erhöhen, Webflow-URL eintragen, Verknüpfung zur Content-Research-Zeile setzen. Bei der genutzten Vorlage in `Grafik-Vorlagen` ebenfalls `Nutzungszähler` um 1 erhöhen. Beides passiert **nur beim tatsächlichen Publish**, nie beim Vorschlagen – so zählt nur, was wirklich live ging. Zuständig ist das Make-Szenario „Content-Publishing" (ID 9521520), nicht die Routine.
+Pro genutztem Bild in `07 Blog-Bilder`: `Nutzungszähler Blog` um 1 erhöhen, Webflow-URL eintragen, Verknüpfung zur `04 Blog`-Zeile setzen. Bei der genutzten Vorlage in `08 Grafik-Vorlagen` ebenfalls `Nutzungszähler` um 1 erhöhen. Beides passiert **nur beim tatsächlichen Publish**, nie beim Vorschlagen – so zählt nur, was wirklich live ging.
+
+**Wer das bucht (geklärt 08/2026):** Die tägliche Feedback-Runde „Content C" übernimmt die Buchung. Sie sucht Blog-Zeilen mit Status „Veröffentlicht", in deren „Feedback-Verlauf" noch kein Vermerk `Zähler gebucht` steht, erhöht die Zähler und schreibt `Zähler gebucht [Datum]` in den Verlauf. Damit wird jede Zeile genau einmal gebucht, auch wenn der Lauf sie mehrmals sieht. Das Make-Szenario „Content-Publishing" (ID 9521520) fasst die Zähler nicht an; manuelles Nachzählen durch Ali ist nicht mehr nötig.

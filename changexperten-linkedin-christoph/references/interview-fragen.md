@@ -62,7 +62,7 @@ Fehlt bei den "immer Pflicht"-Punkten etwas: nicht schreiben, sondern gezielt na
 ## Wenn noch gar kein Thema feststeht (Phase 0)
 
 Falls die Person noch keine Idee hat, nicht direkt ins Interview springen. Stattdessen:
-1. Zuerst den Vorfall-Speicher prüfen (Tabelle „Vorfälle" in der Base „ChangeXperten", Details in SKILL.md Phase 0) und Studien auf vorhandene Vorfälle matchen, nicht umgekehrt
+1. Zuerst den Vorfall-Speicher prüfen (Tabelle **„01 Themenspeicher"**, `tbl2dxL3ot78QpLqC`, in der Base „changeXperten Content" – Auswahllogik in SKILL.md Phase 0) und Belege aus „02 Studienrecherche" auf vorhandene Vorfälle matchen, nicht umgekehrt
 2. Themencluster + Kategorie als Auswahl anbieten (siehe SKILL.md, Abschnitt Kategorien)
 3. Fragen: "Was ist in den letzten zwei Wochen bei dir, in einem Training oder bei einem Kunden hängen geblieben?" oder "Gibt es gerade ein Thema, über das du dich mit jemandem aus dem EO-Netzwerk gestritten oder ausgetauscht hast?"
 4. Optional: kurze Recherche zu aktuellen Trends im gewählten Cluster (Web-Suche), um Denkanstöße zu liefern

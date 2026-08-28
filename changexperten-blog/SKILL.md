@@ -20,6 +20,9 @@ compatibility: Designed for Claude or similar AI agents.
 
 # Blogartikel-Erstellung für changeXperten
 
+
+**Stand 28.08.2026.** Angepasst an die neue Airtable-Struktur („04 Blog"), täglichen Produktionslauf mit Gate, DataForSEO-Ersatzweg für Keywords, automatisches Webflow-Publishing inkl. Meta-Feldern und das monatliche SEO/GEO-Reporting als Tracking-Strecke. Details: [CHANGELOG.md](CHANGELOG.md).
+
 Nutze `changexperten-brand` für Markenstimme/CI-Feinschliff und Farben. `seo-audit` (On-Page-Qualitätstor), `ai-seo` (GEO/AEO, natürliche Keyword-Nutzung) und `image` (Bildauswahl/-optimierung) laufen unabhängig vom Seitentyp immer mit. `schema`/JSON-LD ist **nur bei Landingpages Pflicht, nicht beim Blog**. Bei der Überarbeitung eines bestehenden Artikels zusätzlich `copy-editing` nutzen – Umfang beibehalten, nicht kürzen. Für die Themen-/Redaktionsplanung selbst siehe `content-strategy` (läuft in einem anderen Raum, nicht hier). Für LinkedIn-Promotion des fertigen Artikels siehe `changexperten-linkedin-christoph`.
 
 ## Prioritätenhierarchie (gilt für jeden Schritt)
@@ -46,7 +49,24 @@ Bei einem Konflikt gewinnt immer die niedrigere Ziffer. Ein Keyword darf nie ein
 
 **Lead-Magnete für CTA:** Team Assessment · Führungs-Test · Change Management Test · Unternehmenskultur-Test
 
-**Einbettung in die automatisierte Content-Pipeline:** Wenn dieser Skill innerhalb einer Cloud-Routine läuft (Research- bzw. Copywriting-Routine), ersetzt er die entsprechenden manuellen Schritte unten. Die beiden Freigabe-Gates (Impulsauswahl, inhaltliche Freigabe durch Christoph) bleiben in jedem Fall manuell – siehe Schritt 8.
+**Einbettung in die automatisierte Content-Pipeline (Stand 08/2026):** Läuft dieser Skill innerhalb der geplanten Aufgabe **„Content D: Blog- und Newsletter-Produktion"**, ersetzt er die entsprechenden manuellen Schritte unten. Die beiden Freigabe-Gates bleiben in jedem Fall bei Christoph: die **Themenwahl** (er setzt eine Blog-Zeile auf „Ausgewählt" – Claude schlägt nur vor und setzt diesen Status nie selbst) und die **inhaltliche Freigabe** des fertigen Artikels (siehe Schritt 8).
+
+Airtable-Anbindung, Base „changeXperten Content" (`appb7eOfe2Au3Lp40`) – maßgeblich sind die IDs, nicht die Namen:
+
+| Zweck | Tabelle | ID |
+|---|---|---|
+| Artikelzeile | **04 Blog** | `tblzTKBLsewsvoCis` |
+| Thema / Vorfall | 01 Themenspeicher | `tbl2dxL3ot78QpLqC` |
+| Belege | 02 Studienrecherche | `tblWbaYkKW0zjR2cW` |
+| Zugehöriger LinkedIn-Post | 03 LinkedIn-Posts | `tblNfTJDJjCia6a1I` |
+| Zugehörige Newsletter-Ausgabe | 05 Newsletter | `tbleTYN8xt28onmIg` |
+| Bildbestand | 07 Blog-Bilder | `tblE7N7W8Z6frJwS1` |
+| Grafikvorlagen | 08 Grafik-Vorlagen | `tbl6nRJ5CfnY9iBNV` |
+| Performance je Seite | 13 Landingpage-Performance | `tbldN6KQJhxCBvfgo` |
+
+Die frühere Tabelle „Blog & Newsletter" ist aufgeteilt: Der Blog behält die Tabellen-ID, der Newsletter hat mit „05 Newsletter" eine eigene Tabelle und einen eigenen Status. Felder mit dem Präfix `zzz Archiv –` in „04 Blog" sind Altlasten aus der Zeit davor und werden nicht mehr befüllt.
+
+**Rhythmus:** Ziel sind 2 Artikel pro Monat. Der Produktionslauf startet **täglich** und beginnt mit einem Gate: Er produziert, sobald eine Zeile auf „Ausgewählt" steht, und beendet sich sonst still – bei erreichtem Monatsziel, bei bereits wartenden Vorschlägen oder wenn der LinkedIn-Prozess des Monats noch zu früh für einen belastbaren Themenvorschlag ist. Ein Lauf ohne Arbeit schreibt nichts und schickt keine Mail.
 
 ## Workflow
 
@@ -66,7 +86,7 @@ Damit ich treffsicher liefern kann:
 
 ### Schritt 1 – Artikel-Auswahl
 
-Thema kommt aus dem Content-Plan (Status-Board/Airtable, Status "Ausgewählt") oder direkt von Ali/Christoph als Vorgabe. Der dort hinterlegte Titel ist ein Arbeitstitel – bessere Formulierungen im Verlauf des Prozesses sind ausdrücklich erwünscht, vor allem sobald Kernaussage und Content-Ziel feststehen. Keine eigene Themenplanung hier (siehe `content-strategy`).
+Thema kommt aus Tabelle „04 Blog" mit Status „Ausgewählt" – dort hat Christoph es freigegeben – oder direkt von Ali/Christoph als Vorgabe im Chat. Der dort hinterlegte Titel ist ein Arbeitstitel – bessere Formulierungen im Verlauf des Prozesses sind ausdrücklich erwünscht, vor allem sobald Kernaussage und Content-Ziel feststehen. Keine eigene Themenplanung hier (siehe `content-strategy`).
 
 ### Schritt 2 – Recherche
 
@@ -134,8 +154,8 @@ Reihenfolge:
 1. Meta-Titel, Meta-Description, Slug, finale H1 erstellen → in „Seo-Texte"-Datei eintragen. Alle vier sind immer Pflicht (Grundhygiene); das Haupt-Keyword gehört nur bei Content-Ziel „SEO-Keyword"/„Beides" hinein, bei „GEO-Autorität" werden sie aus der Kernaussage formuliert
 2. Interne Links auf zwei Ebenen: Leistungsseiten (2–5/1.000 Wörter) **ausschließlich** aus der verbindlichen URL-Liste **plus** 2–3 Blog-zu-Blog-Links auf veröffentlichte Artikel (gültige URLs nur aus dem Live-Webflow-Bestand bzw. /blog, nie geraten – siehe references/seo-und-bilder.md); externe Links (1–2/1.000 Wörter) auf seriöse Quellen
 3. Drei Tags vergeben – **nur** aus bereits in Webflow angelegten Tags, keine neuen erstellen
-4. Quellenblock am Ende erstellen: H2 „Quellen", Leitquelle zuerst, dann Stützbelege, dann Bücher – jeweils mit Herausgeber, Veröffentlichungsdatum (JJJJ-MM) und Link aufs Original. Datumsangaben aus dem Quellen-Feld der Airtable-Zeile übernehmen
-5. **Bildplan und Grafik** nach [references/bilder-und-grafiken.md](references/bilder-und-grafiken.md): Slots nach dem Drei-Ebenen-Modell anlegen (1 Hero, 4–6 Motivfotos, mindestens 1 eigene Grafik), pro Slot Motiv-Briefing, Quelle, Alt-Text und Dateiname. Kandidaten aus der Tabelle `Blog-Bilder` ziehen, Fallback-Reihenfolge SharePoint-Fundus → Stockfoto → KI. Für die Ebene-3-Grafik eine Vorlage aus `Grafik-Vorlagen` nach Aussagetyp wählen und den Befüllungsauftrag schreiben. Die Form darf die Aussage nicht verfälschen
+4. Quellenblock am Ende erstellen: H2 „Quellen", Leitquelle zuerst, dann Stützbelege, dann Bücher – jeweils mit Herausgeber, Veröffentlichungsdatum (JJJJ-MM) und Link aufs Original. Datumsangaben aus dem Feld „Quellen" des verknüpften Datensatzes in „02 Studienrecherche" übernehmen
+5. **Bildplan und Grafik** nach [references/bilder-und-grafiken.md](references/bilder-und-grafiken.md): Slots nach dem Drei-Ebenen-Modell anlegen (1 Hero, 4–6 Motivfotos, mindestens 1 eigene Grafik), pro Slot Motiv-Briefing, Quelle, Alt-Text und Dateiname. Kandidaten aus der Tabelle `07 Blog-Bilder` ziehen, Fallback-Reihenfolge SharePoint-Fundus → Stockfoto (Unsplash, mit vollständigem Attributionsblock) → KI. Für die Ebene-3-Grafik eine Vorlage aus `08 Grafik-Vorlagen` nach Aussagetyp wählen und den Befüllungsauftrag schreiben. Die Form darf die Aussage nicht verfälschen
 6. On-Page-Check-Tabelle ausfüllen – zweispurig: Grundhygiene immer, dazu die Spur passend zum Content-Ziel. Keine nachträglichen Keyword-Einbauten, um eine Zeile abzuhaken
 7. Thematisch passenden Lead-Magneten als CTA einbinden
 
@@ -215,7 +235,8 @@ Kurzfassung:
 - **Proof-Point-Diskrepanz:** Der `changexperten-brand`-Skill nennt "6x höhere Erfolgswahrscheinlichkeit" als Kennzahl, die Web-Publishing-Wissensdatei nennt für denselben Sachverhalt "+65 % höhere Erfolgswahrscheinlichkeit". Beide Werte werden hier nicht eigenmächtig vereinheitlicht – vor dem produktiven Einsatz mit Christoph/Ali abgleichen, welche Zahl aktuell gültig ist.
 - **Legacy-URLs:** Ältere Blogartikel könnten noch auf falsche, verschachtelte Pfade verlinken (z. B. `/teamentwicklung/teamcoaching` statt `/teamcoaching`). Bei Gelegenheit korrigieren, ist aber kein Blocker für neue Artikel.
 - **Promotion-Zuständigkeit:** Das Original-Prozessdokument nennt „Antonia" als Ansprechpartnerin für die Promotion-Übergabe. Da laut aktuellem Team-Stand Melanie neu dazugekommen ist, könnte sich diese Zuständigkeit geändert haben – vor produktivem Einsatz in der Cloud-Routine abgleichen.
-- **Tracking-Schwellenwerte:** Wann genau nach 4–6 Wochen eine Nachjustierung ausgelöst werden soll, ist in beiden Quelldokumenten nicht abschließend definiert.
+- **Tracking-Schwellenwerte:** Wann genau nach 4–6 Wochen eine Nachjustierung ausgelöst werden soll, war in den Quelldokumenten nicht definiert. Seit 08/2026 übernimmt das die monatliche Aufgabe „Content F: SEO/GEO-Reporting": Sie berechnet je Seite eine Diagnose und ein Klick-Potenzial und leitet daraus Maßnahmen ab (z. B. „Impressionen ≥ 100, Position ≤ 10, CTR < 2 %" → Snippet überarbeiten). Die Schwellen stehen als Formeln in „13 Landingpage-Performance" und sind dort nachlesbar und anpassbar.
+- **Ø Position Non-Brand und GA4 je Landingpage** fehlen im ersten Report (Juli 2026) noch, weil sie beim Erstaufbau nicht abgerufen wurden. Ab 09/2026 zieht der Report sie mit.
 
 ## Referenzdateien im Überblick
 

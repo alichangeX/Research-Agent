@@ -1,6 +1,8 @@
 # Abbildungen im Newsletter
 
-Bilder und Grafiken kommen aus Airtable, Base `appb7eOfe2Au3Lp40`. Zwei Quellen, keine weiteren: Tabelle **Blog-Bilder** (`tblE7N7W8Z6frJwS1`) für Fotos, Tabelle **Grafik-Vorlagen** (`tbl6nRJ5CfnY9iBNV`) für eigene Grafiken. Kein Unsplash-Direktabruf, kein KI-Bild, keine Bilder aus der Tabelle LinkedIn-Bilder – die ist ausschließlich für LinkedIn, und ihr Nutzungszähler sperrt bereits gepostete Motive.
+Bilder und Grafiken kommen aus Airtable, Base `appb7eOfe2Au3Lp40`. Zwei Quellen, keine weiteren: Tabelle **07 Blog-Bilder** (`tblE7N7W8Z6frJwS1`) für Fotos, Tabelle **08 Grafik-Vorlagen** (`tbl6nRJ5CfnY9iBNV`) für eigene Grafiken. Kein Unsplash-Direktabruf, kein KI-Bild, keine Bilder aus der Tabelle 06 LinkedIn-Bilder – die ist ausschließlich für LinkedIn, und ihr Nutzungszähler sperrt bereits gepostete Motive.
+
+Die Ausgabe selbst liegt in Tabelle **05 Newsletter** (`tbleTYN8xt28onmIg`) und hat seit 08/2026 eigene Felder für das Visuelle: „Grafik" (Anhang, die fertige Abbildung), „Grafik-Befüllung" (Doku) und „Grafik-Vorlage" (Verknüpfung).
 
 ## Schritt 1 – Braucht diese Ausgabe überhaupt eine Abbildung?
 
@@ -57,21 +59,23 @@ Die Grafiken sind für Folien gebaut, nicht für Postfächer. Vor dem Einbinden:
 
 ## Airtable-Feldzuordnung
 
-Kommt der Auftrag aus der Content-Pipeline (Tabelle Blog & Newsletter, `tblzTKBLsewsvoCis`), werden die bestehenden Bildfelder mitgenutzt:
+Die Ausgabe hat eigene Felder in **05 Newsletter** (`tbleTYN8xt28onmIg`) – der frühere Umweg über die Blog-Zeile ist entfallen:
 
-| Zweck | Feld |
-|---|---|
-| Foto-Kandidaten | „Bildvorschläge Blog" (Verknüpfung auf Blog-Bilder) |
-| Gewählte Grafikvorlage | „Grafik-Vorlagen" (Verknüpfung) |
-| Befüllungsauftrag | „Grafik-Auftrag" |
+| Zweck | Feld in 05 Newsletter | ID |
+|---|---|---|
+| Fertige Abbildung (PNG) | „Grafik" (Anhang) | `fldfFt570fVF1PaM7` |
+| Befüllung und Begründung | „Grafik-Befüllung" | `fldSknAC1FAIFfTts` |
+| Gewählte Vorlage | „Grafik-Vorlage" (Verknüpfung auf 08 Grafik-Vorlagen) | `fldI5HYutlet1z7Ji` |
 
-Trägt dieselbe Zeile auch einen Blogartikel, gelten diese Felder primär für den Blog. Dann wird die Newsletter-Abbildung **nicht** zusätzlich dort eingetragen, sondern im Text des Feldes „Finaler Newsletter" am Ende als Block dokumentiert:
+Damit ist der frühere „offene Punkt für Christoph" erledigt: Die Ausgabe braucht kein Textfeld-Provisorium mehr, und die Abbildung liegt genau dort, wo auch die Bilder der anderen Kanäle liegen – als Anhang am Datensatz.
+
+**Wenn ein Foto statt einer Grafik gewählt wird**, kommt es weiterhin aus „07 Blog-Bilder". Da es dafür keinen Newsletter-Zähler gibt, wird die Verwendung in „Grafik-Befüllung" dokumentiert:
 
 ```
-Abbildung: [Dateiname oder Vorlagenname] | Position: [nach Absatz X] | Alt-Text: [...] | Quelle: Blog-Bilder / Grafik-Vorlagen
+Foto: [Dateiname aus 07 Blog-Bilder] | Position: nach Absatz X | Alt-Text: [...] | Quelle: 07 Blog-Bilder
 ```
 
-**Offener Punkt für Christoph:** Sauberer wäre ein eigenes Feld „Bildvorschläge Newsletter" in Blog & Newsletter plus ein Zähler „Nutzungszähler Newsletter" in Blog-Bilder. Solange die nicht existieren, gilt die Dokumentation im Textfeld oben.
+**Zähler-Regel:** Der `Nutzungszähler` der Grafik-Vorlage wird genau einmal pro Ausgabe erhöht, und zwar von der täglichen Feedback-Runde beim Wechsel auf „Finaler Entwurf (P3)". Wer die Grafik baut, erhöht nichts.
 
 ## Checkliste Abbildung
 

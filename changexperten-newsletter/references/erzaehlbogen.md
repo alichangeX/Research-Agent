@@ -212,7 +212,7 @@ Was das Beispiel weiterhin vormacht, Baustein für Baustein:
 - **Quellenzeile kursiv am Ende:** Methodik raus aus dem Fließtext, rein in die Fußnote.
 - **Kein einziges Ich, rund 430 Wörter** – Haltung braucht keine Ich-Form und keine 500 Wörter.
 
-**Zwei aktuelle Referenz-Ausgaben (09/2026)** zeigen den heutigen Stand der Regeln: „Warum Schönreden bei Veränderungen Vertrauen kostet" (Fall zuerst, Studie danach, Alltagssprache) und „Warum Benefits nicht die Motivation von Mitarbeitern steigern" (Modell als Rückgrat ohne Zahlenset, Werkzeug-Liste mit den vier Bedeutungs-Fragen, konkrete Beispiel-Pointe). Beide liegen in Airtable („Blog & Newsletter", Finaler Newsletter).
+**Zwei aktuelle Referenz-Ausgaben (09/2026)** zeigen den heutigen Stand der Regeln: „Warum Schönreden bei Veränderungen Vertrauen kostet" (Fall zuerst, Studie danach, Alltagssprache) und „Warum Benefits nicht die Motivation von Mitarbeitern steigern" (Modell als Rückgrat ohne Zahlenset, Werkzeug-Liste mit den vier Bedeutungs-Fragen, konkrete Beispiel-Pointe). Beide liegen in Airtable in Tabelle „05 Newsletter" (`tbleTYN8xt28onmIg`), Feld „Finaler Newsletter" – die 16 migrierten Ausgaben aus der früheren Tabelle „Blog & Newsletter" sind dort textgleich übernommen.
 
 Für die Newsletter-Fassung kommen Anrede, Signatur und (nach CTA-Rotation) ein optionaler Weiterlesen-Verweis dazu; die Kolumne selbst bleibt unangetastet.
 

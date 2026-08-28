@@ -17,7 +17,9 @@ Bei offenen Rückfragen von Christoph: Klärung abwarten, nicht vorsorglich scho
 
 ## 2. Erstellung in Webflow
 
-1. Artikel im CMS einpflegen: Text, Bilder, interne Links, Alt-Tags, Formatierung. Der Quellenblock ist Teil des Rich-Text-Felds am Ende des Artikels, kein separates CMS-Feld; alle Links darin auf „open in new tab" setzen
+**Automatisiert seit 08/2026:** Das Make-Szenario „Content-Publishing" (ID 9521520) legt den Artikel als **Webflow-Entwurf** an und überträgt dabei alle Einzelheiten – Textkörper, Blog-Titel, Meta-Titel, Meta-Description, Slug, Tags, Kategorie, Bilder samt Alt-Text und die Unsplash-Attribution. Die Schritte unten sind damit die Prüfliste am Entwurf, nicht mehr Handarbeit: durchsehen, Formatierung kontrollieren, dann in Webflow veröffentlichen. Nur wenn das Szenario nicht läuft, wird manuell eingepflegt.
+
+1. Artikel im CMS prüfen bzw. einpflegen: Text, Bilder, interne Links, Alt-Tags, Formatierung. Der Quellenblock ist Teil des Rich-Text-Felds am Ende des Artikels, kein separates CMS-Feld; alle Links darin auf „open in new tab" setzen
 2. Meta-Titel und Meta-Description final gegenprüfen (siehe [seo-und-bilder.md](seo-und-bilder.md))
 3. Kategorie eintragen, die drei zuvor festgelegten (bestehenden) Tags anlegen
 4. Artikel veröffentlichen
@@ -33,8 +35,13 @@ Nach Veröffentlichung wird der Artikel an das Content-/Marketing-Team zur Promo
 
 ## 4. Tracking
 
-- **Google Search Console:** Ranking, Klickrate (CTR)
-- **Google Analytics:** Traffic, Verweildauer, Conversion
+Läuft seit 08/2026 automatisiert über die monatliche Aufgabe **„Content F: SEO/GEO-Reporting"** (jeweils am 2. für den Vormonat). Sie zieht die Zahlen selbst und schreibt sie in die Base:
+
+- **Google Search Console** (über Pipedream): Klicks, Impressionen, CTR und Ø Position je Seite und je Query → Tabellen „13 Landingpage-Performance" und „12 Query-Performance". Die Formelfelder dort rechnen Deltas, CTR, eine Diagnose und ein Klick-Potenzial aus.
+- **Google Analytics 4** (über Pipedream): Sitzungen, Engagement-Rate und Key Events je Kanal und Landingpage. Der Kanal „AI Assistant" misst die Zugriffe aus KI-Assistenten.
+- **DataForSEO:** rankende Keywords, Anzahl in den Top 10, Sichtbarkeitswert ETV → „10 KPI-Monatswerte".
+
+Dazu entstehen ein Monatsbefund in Klartext, drei bis fünf Vorschläge in „14 Growth-Maßnahmen" (Status immer „Vorgeschlagen", freigeben tut Christoph) und ein Dashboard, das jeden Monat unter derselben Adresse aktualisiert wird. Wer einen einzelnen Artikel bewerten will, findet ihn über das Feld „Blog" in „13 Landingpage-Performance" direkt mit seiner Blog-Zeile verknüpft.
 
 Nach 4–6 Wochen prüfen, ob Nachjustierung nötig ist, z. B.:
 - Zwischenüberschriften anpassen

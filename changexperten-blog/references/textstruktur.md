@@ -77,7 +77,7 @@ Pro Eintrag: Titel, Herausgeber oder Autor, Veröffentlichungsdatum im Format JJ
 
 Regeln für den Block:
 - Nur Quellen aufnehmen, die im Artikel tatsächlich verwendet wurden. Kein Aufblähen mit ungenutzter Literatur, das wirkt bei KI-Systemen wie bei Lesern durchschaubar
-- Das Veröffentlichungsdatum steht bei jeder Online-Quelle. Es kommt aus dem Quellen-Feld der Airtable-Zeile, wo Routine 1 es bereits als JJJJ-MM hinterlegt hat
+- Das Veröffentlichungsdatum steht bei jeder Online-Quelle. Es kommt aus dem Feld „Quellen" des verknüpften Datensatzes in „02 Studienrecherche", wo es beim Anlegen bereits als JJJJ-MM hinter dem Link hinterlegt wurde (bei Altzeilen im Feld `zzz Archiv – Quellen`)
 - Auf das Original verlinken, nicht auf einen Aggregator oder eine Pressemeldung darüber
 - Ist eine Quelle inzwischen offline, den Eintrag behalten und als „(Stand JJJJ-MM, nicht mehr abrufbar)" kennzeichnen, statt ihn stillschweigend zu löschen
 - Der Block ist keine Fußnotenlösung: er entbindet nicht davon, Zahlen im Text mit ihrer Quelle zu versehen

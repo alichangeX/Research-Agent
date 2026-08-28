@@ -8,24 +8,32 @@ Ein schwaches Keyword in einen Text zu pressen verwässert ihn und bringt weder 
 
 ## Woher die Daten kommen
 
-Die Keyword-Recherche findet **nicht** in diesem Skill statt. Sie läuft automatisiert, sobald Ali/Christoph eine Zeile in Airtable („Content-Research") auf Status „Ausgewählt" setzen:
+Der Regelweg ist automatisiert: Sobald **Christoph** eine Zeile in Tabelle **„04 Blog"** (`tblzTKBLsewsvoCis`) auf Status „Ausgewählt" setzt – das ist seine Themenfreigabe und die trifft er allein, Claude schlägt nur vor –, passiert Folgendes:
 
-1. Das Make-Szenario „Blog Keywords finden + Suchvolumen" leitet aus Thema, Blog-Winkel, Cluster und Inhalt vier Seed-Keywords ab.
+1. Das Make-Szenario „Blog Keywords finden + Suchvolumen" (ID 9553651) leitet aus Thema, Blog-Winkel, Cluster und Inhalt vier Seed-Keywords ab.
 2. DataForSEO liefert dazu Keyword-Vorschläge mit echtem Suchvolumen für Deutschland. Alles ab 20 Suchanfragen/Monat landet als ungefilterte Rohliste im Feld „Blog-Keywords".
 3. Ein Keyword-Gate prüft die Rohliste gegen Thema, Blog-Winkel, Kerninhalt und Quellen: es dedupliziert, verwirft Begriffe aus fremden Bedeutungsfeldern und schlägt eine kuratierte Auswahl plus ein Content-Ziel vor.
 
-Google Keyword Planner und Search Console werden für neue Artikel nicht mehr gebraucht. Search Console bleibt relevant für den Refresh bereits veröffentlichter Artikel, das läuft über `seo-audit`.
+**Ersatzweg seit 08/2026 – nicht auf Make warten.** Der Produktionslauf ist täglich und kann ein Thema am Morgen nach der Freigabe aufgreifen; das Make-Szenario ist dann eventuell noch nicht durchgelaufen. Sind „Keyword-Auswahl" und „Content-Ziel" beim Start leer, recherchiert Claude selbst über den **DataForSEO-Konnektor**, statt den Artikel zu verschieben:
+
+- `dataforseo_labs_google_keyword_ideas` oder `dataforseo_labs_google_keyword_suggestions` (`location_name` „Germany", `language_code` „de") auf Basis von Thema und Blog-Winkel
+- `dataforseo_labs_google_keyword_overview` oder `kw_data_google_ads_search_volume` für das Volumen
+- `dataforseo_labs_bulk_keyword_difficulty` für die Schwierigkeit
+
+Auswahlmaßstab bleibt derselbe wie beim Make-Gate: relevant zur Kernaussage, Suchvolumen realistisch erreichbar. Im Zweifel Long-Tail mit klarer Intention statt Kopf-Keyword mit hoher Difficulty. Die Rohliste geht nach „Blog-Keywords", der kuratierte Vorschlag nach „Keyword-Auswahl", das Volumen nach „Haupt-Keyword-Volumen", und in „Notizen Redaktion" wird vermerkt, dass die Keywords direkt per Konnektor kamen. Findet DataForSEO kein tragfähiges Keyword: „Keyword-Auswahl" = „verworfen: [Grund]", „Content-Ziel" = „GEO-Autorität".
+
+Google Keyword Planner braucht es für neue Artikel nicht. Die **Search Console** ist inzwischen über Pipedream angebunden und liefert monatlich echte Klick-, Impressions- und Positionsdaten in die Reporting-Tabellen – relevant für den Refresh bereits veröffentlichter Artikel (`seo-audit`) und für die Frage, ob ein Bestandsartikel für ein Keyword schon rankt.
 
 ## Die vier Felder und ihre Rollen
 
 | Feld | Inhalt | Wer schreibt |
 |---|---|---|
-| Blog-Keywords | ungefilterte DataForSEO-Rohliste, Format „keyword (ca. X/Monat)" | nur Make – nie überschreiben |
-| Keyword-Auswahl | kuratierter Vorschlag „Haupt: [Keyword] (Volumen) \| Sekundär: [Keyword] (Volumen), …" oder „verworfen: [Grund]" | Keyword-Gate, danach Routine 2 / dieser Skill |
+| Blog-Keywords | ungefilterte DataForSEO-Rohliste, Format „keyword (ca. X/Monat)" | Make; nur wenn das Feld leer geblieben ist, schreibt Claude die selbst recherchierte Rohliste hinein – eine von Make gefüllte Liste wird nie überschrieben |
+| Keyword-Auswahl | kuratierter Vorschlag „Haupt: [Keyword] (Volumen) \| Sekundär: [Keyword] (Volumen), …" oder „verworfen: [Grund]" | Keyword-Gate, danach der Produktionslauf „Content D" / dieser Skill |
 | Content-Ziel | SEO-Keyword · GEO-Autorität · Beides | Gate schlägt vor, dieser Skill entscheidet endgültig |
 | Haupt-Keyword-Volumen | Suchvolumen des Haupt-Keywords | Keyword-Gate |
 
-Die Rohliste bleibt als Nachweis stehen. Wer sie überschreibt, macht die Entscheidung nicht mehr nachvollziehbar und bricht den Trigger des Make-Szenarios.
+Eine von Make gefüllte Rohliste bleibt als Nachweis stehen. Wer sie überschreibt, macht die Entscheidung nicht mehr nachvollziehbar und bricht den Trigger des Make-Szenarios.
 
 ## Reihenfolge: Quelle zuerst, dann Keyword
 
@@ -63,4 +71,6 @@ Vor der Freigabe eines Haupt-Keywords prüfen, ob ein bereits veröffentlichter 
 - **Kollision heißt nicht automatisch verwerfen.** Gibt es einen konkreten neuen Anlass (neue Studie/Statistik/Ereignis), ist die Aktualisierung des Bestandsartikels oft der bessere Weg als ein Konkurrenzartikel – mit Ali/Christoph klären, ob aktualisiert statt neu geschrieben wird. Ohne neuen Anlass: diesen Artikel auf GEO-Autorität umstellen oder das Thema fallen lassen.
 - Ist der Live-Bestand nicht abrufbar, das Keyword regulär freigeben und die ungeprüfte Kollisionslage offen vermerken statt zu raten.
 
-Innerhalb der automatisierten Pipeline findet diese Prüfung zweistufig statt: als frühes Gate bei der Themenauswahl (Routine 1) und als zweites Netz vor der finalen Keyword-Freigabe (Routine 2). Bei manuellen Aufträgen greift sie hier an dieser Stelle.
+Innerhalb der automatisierten Pipeline findet diese Prüfung zweistufig statt: als frühes Gate beim Themenvorschlag und als zweites Netz vor der finalen Keyword-Freigabe im Produktionslauf. Bei manuellen Aufträgen greift sie hier an dieser Stelle.
+
+**Zweite Prüfspur über echte Rankings (neu seit 08/2026):** Neben dem Live-Bestand aus Webflow prüft der Produktionslauf das Haupt-Keyword zusätzlich gegen die tatsächlichen Rankings der Domain – `dataforseo_labs_google_ranked_keywords` mit `target` „changexperten.com", Germany/de. Rankt eine bestehende Seite für das Keyword schon in den Top 20, gilt es als besetzt, selbst wenn der Titel des Bestandsartikels anders klingt. Dann ist die Aktualisierung dieser Seite der bessere Weg als ein neuer Artikel; der Vorschlag samt betroffener URL gehört in „Notizen Redaktion".
